@@ -1,0 +1,31 @@
+.footer {
+    background-color: black;
+    color: white;
+    height: 377px;
+}
+
+.footer__container {
+    margin: 0 auto;
+    max-width: 1243px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__text {
+    font-family: Raleway;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 48px;
+    line-height: 28.18px;
+}
+
+.footer__text1 {
+    padding-top: 77px
+}
+
+.footer__logo {
+    margin-right: 34px;
+}
