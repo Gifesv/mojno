@@ -17,7 +17,7 @@
                     <img class="header__img" src="public/img/header/logo.svg" alt="logo" />
                     <div class="header__agency">BRANDING <br /> AGENCY</div>
                 </div>
-                 <nav class="header__nav">
+                <nav class="header__nav">
                     <ul class="header__ul">
                         <li><a class="header__link" href="#">о нас</a></li>
                         <li><a class="header__link" href="#">портфолио</a></li>
@@ -35,7 +35,6 @@
             <p class="tagline__text">Мы создаем бренды, <br> которыми предприниматели <br> будут гордиться</p>
             <img src="public/img/main/one_letter_logo.png" alt="one_letter_logo">
         </div>
-    
     </div>
     <div class="list">
         <ul class="list__items">
@@ -56,8 +55,8 @@
     </div>
     <div class="projects">
         <div class="line "></div>
-        <div class="asd">
-            <div class="qwe">
+        <div class="in_line">
+            <div class="in_line_text">
                 <p class="projects__text">ПРОЕКТЫ АГЕНСТВА</p>
                 <p class="projects__text">ПРОЕКТЫ АГЕНСТВА</p>
                 <p class="projects__text">ПРОЕКТЫ АГЕНСТВА</p>
@@ -68,8 +67,6 @@
                 <p class="projects__text">ПРОЕКТЫ АГЕНСТВА</p>
             </div>
         </div>
-       
-        <!-- <p class="projects__text">ПРОЕКТЫ АГЕНСТВА ПРОЕКТЫ АГЕНСТВА ПРОЕКТЫ АГЕНСТВА ПРОЕКТЫ АГЕНСТВА ПРОЕКТЫ АГЕНСТВА ПРОЕКТЫ АГЕНСТВА </p> -->
         <div class="line "></div>
         <div class="projects__images">
             <div class="projects__image">
@@ -106,54 +103,89 @@
             </div>
         </div>
     </div>
-
     <div class="about_projects">
-        <p class="about_projects__text about_projects__text1">Каждому проекту мы создаем сильную брендинговую платформу, чтобы креативные идеи работали на ваш бизнес.</p>
-        <p class="about_projects__text">Мы знаем, как для предпринимателя важно его дело, поэтому выстраиваем нашу работу понятно и комфортно для всех участников.</p>
+        <p class="about_projects__text about_projects__text1">Каждому проекту мы создаем сильную брендинговую платформу,
+            чтобы креативные идеи работали на ваш бизнес.</p>
+        <p class="about_projects__text">Мы знаем, как для предпринимателя важно его дело, поэтому выстраиваем нашу
+            работу понятно и комфортно для всех участников.</p>
         <button class="about_projects__button">НАШИ УСЛУГИ</button>
     </div>
     <div class="team">
         <div class="line"></div>
-        <p class="projects__text">КОМАНДА КОМАНДА КОМАНДА КОМАНДА КОМАНДА КОМАНДА КОМАНДА КОМАНДА КОМАНДА КОМАНДА КОМАНДА КОМАНДА </p>
+        <div class="in_line">
+            <div class="in_line_text">
+                <p class="projects__text">КОМАНДА</p>
+                <p class="projects__text">КОМАНДА</p>
+                <p class="projects__text">КОМАНДА</p>
+                <p class="projects__text">КОМАНДА</p>
+                <p class="projects__text">КОМАНДА</p>
+                <p class="projects__text">КОМАНДА</p>
+                <p class="projects__text">КОМАНДА</p>
+                <p class="projects__text">КОМАНДА</p>
+                <p class="projects__text">КОМАНДА</p>
+                <p class="projects__text">КОМАНДА</p>
+                <p class="projects__text">КОМАНДА</p>
+                <p class="projects__text">КОМАНДА</p>
+                <p class="projects__text">КОМАНДА</p>
+                <p class="projects__text">КОМАНДА</p>
+                <p class="projects__text">КОМАНДА</p>
+            </div>
+        </div>
         <div class="line"></div>
         <div class="team__members">
             <div class="team__image">
                 <img class="team__image_pos" src="public/img/main/party_member.png" alt="party_member">
-                <p class="team__text">Язагит Лера <br> <span>дизайнер</span></p> 
+                <p class="team__text">Язагит Лера <br> <span>дизайнер</span></p>
             </div>
             <div class="team__image">
                 <img class="team__image_pos" src="public/img/main/party_member.png" alt="party_member">
-                <p class="team__text">Язагит Лера <br> <span>дизайнер</span></p> 
+                <p class="team__text">Язагит Лера <br> <span>дизайнер</span></p>
             </div>
             <div class="team__image">
                 <img class="team__image_pos" src="public/img/main/party_member.png" alt="party_member">
-                <p class="team__text">Язагит Лера <br> <span>дизайнер</span></p> 
+                <p class="team__text">Язагит Лера <br> <span>дизайнер</span></p>
             </div>
             <div class="team__image">
                 <img class="team__image_pos" src="public/img/main/party_member.png" alt="party_member">
-                <p class="team__text">Язагит Лера <br> <span>дизайнер</span></p> 
+                <p class="team__text">Язагит Лера <br> <span>дизайнер</span></p>
             </div>
             <div class="team__image">
                 <img class="team__image_pos" src="public/img/main/party_member.png" alt="party_member">
-                <p class="team__text">Язагит Лера <br> <span>дизайнер</span></p> 
+                <p class="team__text">Язагит Лера <br> <span>дизайнер</span></p>
             </div>
             <div class="team__image">
                 <img class="team__image_pos" src="public/img/main/party_member.png" alt="party_member">
-                <p class="team__text">Язагит Лера <br> <span>дизайнер</span></p> 
+                <p class="team__text">Язагит Лера <br> <span>дизайнер</span></p>
             </div>
             <div class="team__image">
                 <img class="team__image_pos" src="public/img/main/party_member.png" alt="party_member">
-                <p class="team__text">Язагит Лера <br> <span>дизайнер</span></p> 
+                <p class="team__text">Язагит Лера <br> <span>дизайнер</span></p>
             </div>
             <div class="team__image">
                 <img class="team__image_pos" src="public/img/main/party_member.png" alt="party_member">
-                <p class="team__text">Язагит Лера <br> <span>дизайнер</span></p> 
+                <p class="team__text">Язагит Лера <br> <span>дизайнер</span></p>
             </div>
         </div>
     </div>
     <div class="contact">
         <div class="line"></div>
-        <p class="projects__text">СВЯЗАТЬСЯ СВЯЗАТЬСЯ СВЯЗАТЬСЯ СВЯЗАТЬСЯ СВЯЗАТЬСЯ СВЯЗАТЬСЯ СВЯЗАТЬСЯ СВЯЗАТЬСЯ СВЯЗАТЬСЯ СВЯЗАТЬСЯ СВЯЗАТЬСЯ  </p>
+        <div class="in_line">
+            <div class="in_line_text">
+                <p class="projects__text">СВЯЗАТЬСЯ</p>
+                <p class="projects__text">СВЯЗАТЬСЯ</p>
+                <p class="projects__text">СВЯЗАТЬСЯ</p>
+                <p class="projects__text">СВЯЗАТЬСЯ</p>
+                <p class="projects__text">СВЯЗАТЬСЯ</p>
+                <p class="projects__text">СВЯЗАТЬСЯ</p>
+                <p class="projects__text">СВЯЗАТЬСЯ</p>
+                <p class="projects__text">СВЯЗАТЬСЯ</p>
+                <p class="projects__text">СВЯЗАТЬСЯ</p>
+                <p class="projects__text">СВЯЗАТЬСЯ</p>
+                <p class="projects__text">СВЯЗАТЬСЯ</p>
+                <p class="projects__text">СВЯЗАТЬСЯ</p>
+                <p class="projects__text">СВЯЗАТЬСЯ</p>
+            </div>
+        </div>
         <div class="line"></div>
         <div class="contact__block">
             <p class="contact__text">Здесь можно задать вопрос <br> или оформить заказ</p>
@@ -167,9 +199,25 @@
         </div>
     </div>
     <div class="line"></div>
-    <p class="projects__text">КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ КОНТАКТЫ </p>
+    <div class="in_line">
+        <div class="in_line_text">
+            <p class="projects__text">КОНТАКТЫ</p>
+            <p class="projects__text">КОНТАКТЫ</p>
+            <p class="projects__text">КОНТАКТЫ</p>
+            <p class="projects__text">КОНТАКТЫ</p>
+            <p class="projects__text">КОНТАКТЫ</p>
+            <p class="projects__text">КОНТАКТЫ</p>
+            <p class="projects__text">КОНТАКТЫ</p>
+            <p class="projects__text">КОНТАКТЫ</p>
+            <p class="projects__text">КОНТАКТЫ</p>
+            <p class="projects__text">КОНТАКТЫ</p>
+            <p class="projects__text">КОНТАКТЫ</p>
+            <p class="projects__text">КОНТАКТЫ</p>
+            <p class="projects__text">КОНТАКТЫ</p>
+            <p class="projects__text">КОНТАКТЫ</p>
+        </div>
+    </div>
     <div class="line"></div>
-    
     <div class="footer">
         <div class="footer__container">
             <div>
@@ -181,8 +229,6 @@
                 <img src="public/img/footer/tg_logo.svg" alt="">
             </div>
         </div>
-       
-
     </div>
 </body>
 
