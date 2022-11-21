@@ -1,0 +1,29 @@
+.services {
+    width: 100%;
+    max-width: 814px;
+    margin: 0 auto;
+    margin-top: 90px;
+
+    &__text {
+        font-family: Raleway;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 40px;
+
+        &:first-child {
+            margin-bottom: 66px;
+        }
+    }
+
+    &__btn {
+        width: 100%;
+        background-color: black;
+        color: white;
+        margin-top: 66px;
+        padding: 25px 0;
+        font-family: Raleway, sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+    }
+}

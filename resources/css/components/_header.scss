@@ -1,65 +1,82 @@
-header {
-    padding-top: 40px;
-}
+.header {
+    max-width: 1550px;
+    margin: 40px auto 0 auto;
 
-nav {
-    font-family: Raleway;
-    font-size: 24px;
-    font-weight: 700;
-    .header__link{
-        text-decoration: none;
-        margin: 0 20px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
     }
-}
 
-.header__ul {
-    display:flex;
-    justify-content: space-between;
-}
+    &__logo {
+        display: flex;
+        align-items: center;
+    }
 
-.header__contact {
-    position: relative;
-}
+    &__img {
+        width: 445px;
+        height: 78px;
+    }
 
-.header__contact::before {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 102px;
-    height: 23px;
-    background-color: #DEDEDE;
-    transform: rotate(-14.9deg);
-    z-index: -1;
-    right: 28px;
-}
+    &__agency {
+        font-size: 13px;
+        font-family: Raleway, sans-serif;
+        font-weight: 600;
+        line-height: 16px;
+        color: #B9B9B9;
+        border-left: 2px solid #B9B9B9; 
+        padding-left: 6px;
+    }
 
-.header__contact::after {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 102px;
-    height: 23px;
-    background-color: #DEDEDE;
-    transform: rotate(-14.9deg);
-    z-index: -1;
-    top: 10px;
-    left: 30px;
+    &__nav {
+        font-family: Raleway, sans-serif;
+        font-size: 24px;
+        font-weight: 700;  
+        padding-top: 10px; 
+    }
 
-}
+    &__nav-list {
+        display:flex;
+        justify-content: space-between;
+    }
 
-.header__inner {
-    display: flex;
-    justify-content: space-between;
-}
+    &__nav-item {
+        margin-right: 40px;
 
-.header__agency {
-    font-size: 13px;
-    font-family: Raleway;
-    font-weight: 600;
-    color: #B9B9B9;
-    float:right;
-    margin-top: 30px;
-    margin-left: 10px;
-    border-left: 2px solid #B9B9B9;
-    padding-left: 6px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__nav-link{
+        text-decoration: none;    
+    }
+
+    &__contact {
+        position: relative;
+
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 102px;
+            height: 23px;
+            background-color: #DEDEDE;
+            transform: rotate(-14.9deg);
+            z-index: -1;
+            right: 28px;
+        }
+
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 102px;
+            height: 23px;
+            background-color: #DEDEDE;
+            transform: rotate(-14.9deg);
+            z-index: -1;
+            top: 10px;
+            left: 30px;
+        }
+    }
 }

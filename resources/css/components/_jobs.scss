@@ -1,0 +1,27 @@
+.jobs {
+    max-width: 1440px;
+    margin: 170px auto 0 auto;
+
+    &-list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-list__item {
+        font-family: Inter, sans-serif;
+        font-weight: 700;
+        font-size: 19px;
+        line-height: 23px;
+
+        &::after {
+            content: '';
+            border-left: 2px solid black;
+            height: 24px;    
+            margin-left: 55px;
+        }
+
+        &:last-child::after {
+            display: none;
+        }
+    }
+}
