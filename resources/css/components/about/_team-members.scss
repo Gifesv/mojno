@@ -1,0 +1,44 @@
+.team-members {
+    margin: 144px auto 0 auto;
+    width: 1286px;
+
+    &__item {
+        display: flex;
+        
+        &:first-child {
+            margin-bottom: 91px;
+        }
+    }
+
+    &__img {
+        width: 656px;
+        height: 830px;
+    }
+
+    &__wrap1 {
+        margin: 110px auto 0 117px;
+    }
+
+    &__wrap2 {
+        margin: 110px 117px 0  50px;
+    }
+
+    &__name {
+        font-family: Raleway, sans-serif;
+        font-size: 29px;
+        font-weight: 700;
+        line-height: 51px;
+        margin-bottom: 28px;
+    }
+
+    &__text {
+        font-family: Raleway, sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 40px;  
+    }
+
+    &__group {
+        margin-bottom: 94px;
+    }
+}

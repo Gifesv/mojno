@@ -19,7 +19,7 @@
                 <nav class="header__nav">
                     <ul class="header__nav-list">
                         <li class="header__nav-item">
-                            <a class="header__nav-link" href="#">о нас</a>
+                            <a class="header__nav-link" href="http://mojno.lo/about">о нас</a>
                         </li>
                         <li class="header__nav-item">
                             <a class="header__nav-link" href="#">портфолио</a>

@@ -1,0 +1,38 @@
+.join {
+    margin: 187px auto 148px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__head {
+        font-family: Raleway, sans-serif;
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 43px; 
+    }
+
+    &__text {
+        margin-top: 36px;
+        font-family: Raleway, sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 40px;
+    }
+
+    &__email {
+        margin-top: 23px;
+        padding: 20px 0 20px 0;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+    }
+
+    &__email-item {
+        font-family: Raleway, sans-serif;
+        font-size: 29px;
+        font-weight: 700;
+        line-height: 40px;
+        color: white;
+        text-decoration: none;
+    }
+}
