@@ -395,7 +395,7 @@ template {
   max-width: 1550px;
   margin: 40px auto 0 auto;
 }
-.header__underline::after {
+.header__nav-link_underline::after {
   content: "";
   width: 100%;
   height: 4px;
