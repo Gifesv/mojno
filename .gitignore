@@ -5,10 +5,13 @@ package-lock.json
 /public/storage
 /storage/*.key
 /vendor
+/tmp
 .env
 .env.backup
 .phpunit.result.cache
 docker-compose.override.yml
+/_docker
+docker-compose.yml
 Homestead.json
 Homestead.yaml
 npm-debug.log
@@ -19,3 +22,5 @@ yarn-error.log
 favicon.ico
 index.php
 robots.txt
+
+
