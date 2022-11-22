@@ -64,11 +64,6 @@
         }
     }
 
-    &list__item-img {
-        position: relative;
-        z-index: 1;
-    }
-
     &-list__item:hover .team-list__item-text {
         opacity: 1;
     }

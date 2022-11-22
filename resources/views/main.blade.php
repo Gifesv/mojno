@@ -51,17 +51,11 @@
     <div class="jobs">
         <ul class="jobs-list">
             <li class="jobs-list__item">упаковка бренда</li>
-            <div class="list__line"></div>
             <li class="jobs-list__item">дизайн</li>
-            <div class="list__line"></div>
             <li class="jobs-list__item">исследования</li>
-            <div class="list__line"></div>
             <li class="jobs-list__item">таргет</li>
-            <div class="list__line"></div>
             <li class="jobs-list__item">соцсети</li>
-            <div class="list__line"></div>
             <li class="jobs-list__item">исследования</li>
-            <div class="list__line"></div>
             <li class="jobs-list__item">сайты</li>
         </ul>
     </div>
@@ -116,7 +110,7 @@
     </div>
 
     <div class="services">
-        <p class="services__text about_projects__text1">Каждому проекту мы создаем сильную брендинговую платформу,
+        <p class="services__text">Каждому проекту мы создаем сильную брендинговую платформу,
             чтобы креативные идеи работали на ваш бизнес.</p>
         <p class="services__text">Мы знаем, как для предпринимателя важно его дело, поэтому выстраиваем нашу
             работу понятно и комфортно для всех участников.</p>
@@ -244,8 +238,8 @@
     <div class="footer">
         <div class="footer__container">
             <div>
-                <p class="footer__text">Телефон: +7 (495) 000 00 00</p>
-                <p class="footer__text">E-mail: mozhno@agency.com</p>
+                <p class="footer__text">Телефон: <a class="footer__link" href="tel:+74950000000">+7 (495) 000 00 00</a></p>
+                <p class="footer__text">E-mail: <a class="footer__link" href="mailto:mozhno@agency.com">mozhno@agency.com</a></p>
             </div>
             <div class="footer__logo-wrap">
                 <img class="footer__logo" src="public/img/footer/be_logo.svg" alt="">
