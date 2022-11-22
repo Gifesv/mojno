@@ -809,41 +809,39 @@ template {
   line-height: 40px;
 }
 
-.team-members {
+.staff {
   margin: 144px auto 0 auto;
   width: 1286px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 92px;
+  -moz-column-gap: 120px;
+       column-gap: 120px;
 }
-.team-members__item {
-  display: flex;
-}
-.team-members__item:first-child {
-  margin-bottom: 91px;
-}
-.team-members__img {
+.staff__img {
   width: 656px;
   height: 830px;
 }
-.team-members__wrap1 {
-  margin: 110px auto 0 117px;
-}
-.team-members__wrap2 {
-  margin: 110px 117px 0 50px;
-}
-.team-members__name {
+.staff__name {
   font-family: Raleway, sans-serif;
   font-size: 29px;
   font-weight: 700;
   line-height: 51px;
-  margin-bottom: 28px;
+  margin: 110px auto 28px auto;
 }
-.team-members__text {
+.staff__text {
   font-family: Raleway, sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 40px;
+  max-width: 70%;
 }
-.team-members__group {
-  margin-bottom: 94px;
+.staff__group {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.staff__wrap {
+  margin-left: 50px;
 }
 
 .join {

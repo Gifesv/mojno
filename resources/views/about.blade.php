@@ -140,24 +140,20 @@
         </div>
     </div>
 
-    <div class="team-members">
-        <div class="team-members__item">
-            <img class="team-members__img" src="public/img/about/photo-1.png" alt="photo-1">
-            <div class="team-members__wrap1">
-                <h2 class="team-members__name">МАША АБАДИЕР</h2>
-                <p class="team-members__text">Мы создаем бренды, которыми предприниматели будут гордиться которыми предприниматели будут
-                    гордитьсякоторыми предприниматели будут гордитьсякоторыми предприниматели будут гордиться.</p>
-            </div>
+    <div class="staff">
+        <img class="staff__img" src="public/img/about/photo-1.png" alt="photo-1">
+        <div>
+            <h2 class="staff__name">МАША АБАДИЕР</h2>
+            <p class="staff__text">Мы создаем бренды, которыми предприниматели будут гордиться которыми предприниматели будут
+                гордитьсякоторыми предприниматели будут гордитьсякоторыми предприниматели будут гордиться.</p>
         </div>
-        <img class="team-members__group" src="public/img/about/group-photo.png" alt="group-photo">
-        <div class="team-members__item">
-            <div class="team-members__wrap2">
-                <h2 class="team-members__name">НИНА САМОТОИНА</h2>
-                <p class="team-members__text">Мы создаем бренды, которыми предприниматели будут гордиться которыми предприниматели будут
-                    гордитьсякоторыми предприниматели будут гордитьсякоторыми предприниматели будут гордиться.</p>
-            </div>
-            <img class="team-members__img" src="public/img/about/photo-2.png" alt="photo-2">  
+        <img class="staff__group" src="public/img/about/group-photo.png" alt="group-photo">
+        <div class="staff__wrap">
+            <h2 class="staff__name">НИНА САМОТОИНА</h2>
+            <p class="staff__text">Мы создаем бренды, которыми предприниматели будут гордиться которыми предприниматели будут
+                гордитьсякоторыми предприниматели будут гордитьсякоторыми предприниматели будут гордиться.</p>
         </div>
+        <img class="staff__img" src="public/img/about/photo-2.png" alt="photo-2"> 
     </div>
 
     <div class="join">

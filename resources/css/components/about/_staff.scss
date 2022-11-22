@@ -1,26 +1,14 @@
-.team-members {
+.staff {
     margin: 144px auto 0 auto;
     width: 1286px;
-
-    &__item {
-        display: flex;
-        
-        &:first-child {
-            margin-bottom: 91px;
-        }
-    }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 92px;
+    column-gap: 120px;
 
     &__img {
         width: 656px;
         height: 830px;
-    }
-
-    &__wrap1 {
-        margin: 110px auto 0 117px;
-    }
-
-    &__wrap2 {
-        margin: 110px 117px 0  50px;
     }
 
     &__name {
@@ -28,7 +16,7 @@
         font-size: 29px;
         font-weight: 700;
         line-height: 51px;
-        margin-bottom: 28px;
+        margin: 110px auto 28px auto;
     }
 
     &__text {
@@ -36,9 +24,15 @@
         font-size: 24px;
         font-weight: 500;
         line-height: 40px;  
+        max-width: 70%;
     }
 
     &__group {
-        margin-bottom: 94px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    &__wrap {
+        margin-left: 50px;
     }
 }
