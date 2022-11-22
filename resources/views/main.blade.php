@@ -206,7 +206,7 @@
                 <input class="form__input" type="text" placeholder="Телефон*" name="phone">
                 <input class="form__input" type="text" placeholder="E-mail*" name="email">
                 <textarea class="form__textarea form__input" placeholder="Сообщение" name="mail"></textarea>
-                <input class="form__btn" type="submit" name="btn">
+                <input class="form__btn" type="submit" placeholder="Отправить" name="btn">
             </form>
         </div>
     </div>
