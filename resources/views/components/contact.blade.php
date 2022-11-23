@@ -17,7 +17,7 @@
                 <p class="section-title__line-text">СВЯЗАТЬСЯ</p>
                 <p class="section-title__line-text">СВЯЗАТЬСЯ</p>
                 <p class="section-title__line-text">СВЯЗАТЬСЯ</p>
-                <p class="section-title__line-text">СВЯЗАТЬСЯ</p>  
+                <p class="section-title__line-text">СВЯЗАТЬСЯ</p>
             </div>
         </div>
         <div class="contact__wrap">
@@ -27,7 +27,7 @@
                 <input class="form__input" type="text" placeholder="Телефон*" name="phone">
                 <input class="form__input" type="text" placeholder="E-mail*" name="email">
                 <textarea class="form__textarea form__input" placeholder="Сообщение" name="mail"></textarea>
-                <input class="form__btn" type="submit" name="btn">
+                <input class="form__btn" type="submit" name="btn" placeholder="Отправить">
             </form>
         </div>
     </div>
