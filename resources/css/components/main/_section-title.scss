@@ -6,6 +6,8 @@
     border-top: 5px solid black;
     position: relative;
     z-index: 10;
+    background-color: white;
+    color: black;
 
     &__line {
         display: flex;
