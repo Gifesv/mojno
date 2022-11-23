@@ -1,46 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.default')
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/public/css/index.css">
-    <title>Можно</title>
-</head>
-
-<body>
-    <header class="header">
-            <div class="header__inner">
-                <div class="header__logo">
-                    <img class="header__img" src="public/img/header/logo.svg" alt="logo" />
-                    <div class="header__agency">BRANDING <br /> AGENCY</div>
-                </div>
-                <nav class="header__nav">
-                    <ul class="header__nav-list">
-                        <li class="header__nav-item">
-                            <a class="header__nav-link" href="http://mojno.lo/about">о нас</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-link" href="http://mojno.lo/portfolio">портфолио</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-link" href="http://mojno.lo/services">услуги</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-link" href="http://mojno.lo/blog">блог</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-link" href="http://mojno.lo/audit">аудит</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-link header__contact" href="http://mojno.lo/contact">связаться</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-    </header>
-
+@section('content')
     <div class="tagline">
         <div class="tagline__wrapper">
             <p class="tagline__text">Мы создаем бренды, <br> которыми предприниматели <br> будут гордиться</p>
@@ -120,42 +80,4 @@
     <x-team></x-team>
 
     <x-contact></x-contact>
-
-    <div class="footer">
-        <div class="section-title">
-            <div class="section-title__line">
-                <p class="section-title__line-text">КОНТАКТЫ</p>
-                <p class="section-title__line-text">КОНТАКТЫ</p>
-                <p class="section-title__line-text">КОНТАКТЫ</p>
-                <p class="section-title__line-text">КОНТАКТЫ</p>
-                <p class="section-title__line-text">КОНТАКТЫ</p>
-                <p class="section-title__line-text">КОНТАКТЫ</p>
-                <p class="section-title__line-text">КОНТАКТЫ</p>
-                <p class="section-title__line-text">КОНТАКТЫ</p>
-                <p class="section-title__line-text">КОНТАКТЫ</p>
-                <p class="section-title__line-text">КОНТАКТЫ</p>
-                <p class="section-title__line-text">КОНТАКТЫ</p>
-                <p class="section-title__line-text">КОНТАКТЫ</p>
-                <p class="section-title__line-text">КОНТАКТЫ</p>
-                <p class="section-title__line-text">КОНТАКТЫ</p>
-                <p class="section-title__line-text">КОНТАКТЫ</p>
-                <p class="section-title__line-text">КОНТАКТЫ</p>
-                <p class="section-title__line-text">КОНТАКТЫ</p>
-                <p class="section-title__line-text">КОНТАКТЫ</p>
-            </div>
-        </div>
-        <div class="footer__container">
-            <div>
-                <p class="footer__text">Телефон: <a class="footer__link" href="tel:+74950000000">+7 (495) 000 00 00</a></p>
-                <p class="footer__text">E-mail: <a class="footer__link" href="mailto:mozhno@agency.com">mozhno@agency.com</a></p>
-            </div>
-            <div class="footer__logo-wrap">
-                <img class="footer__logo" src="public/img/footer/be_logo.svg" alt="">
-                <img src="public/img/footer/tg_logo.svg" alt="">
-            </div>
-        </div>
-    </div>
-
-</body>
-
-</html>
+@endsection

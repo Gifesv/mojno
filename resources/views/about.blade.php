@@ -1,4 +1,5 @@
 @extends('layouts.default')
+
 @section('content')
     <div class="about">
         <div class="section-title">
