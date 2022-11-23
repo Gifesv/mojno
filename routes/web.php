@@ -23,3 +23,6 @@ Route::get('/about', function () {
 Route::get('/main', function () {
     return view('main');
 });
+Route::get('/portfolio', function () {
+    return view('portfolio');
+});

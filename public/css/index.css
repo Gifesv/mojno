@@ -526,6 +526,10 @@ template {
   grid-gap: 22px;
   justify-items: center;
 }
+.projects-list_col3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-bottom: 110px;
+}
 .projects-list__item-img {
   width: 100%;
 }

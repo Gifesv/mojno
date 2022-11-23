@@ -8,6 +8,11 @@
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 22px;
         justify-items: center;
+
+        &_col3 {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            margin-bottom: 110px;
+        }
     }
     
     &-list__item-img {

@@ -22,7 +22,7 @@
                         <a class="header__nav-link header__nav-link_underline" href="http://mojno.lo/about">о нас</a>
                     </li>
                     <li class="header__nav-item">
-                        <a class="header__nav-link" href="#">портфолио</a>
+                        <a class="header__nav-link" href="http://mojno.lo/portfolio">портфолио</a>
                     </li>
                     <li class="header__nav-item">
                         <a class="header__nav-link" href="#">услуги</a>
