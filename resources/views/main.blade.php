@@ -78,6 +78,4 @@
     </div>
 
     <x-team></x-team>
-
-    <x-contact></x-contact>
 @endsection

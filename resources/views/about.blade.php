@@ -65,7 +65,5 @@
             <a class="join__email-item" href="mailto:mojhno.agency@gmail.com">mojhno.agency@gmail.com</a>
         </div>
     </div>
-
-    <x-contact></x-contact>
 @endsection
 
