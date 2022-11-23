@@ -29,6 +29,6 @@ Route::get('/portfolio', function () {
 Route::get('/blog', function () {
     return view('blog');
 });
-Route::get('/pika-coffee', function () {
-    return view('pika-coffee');
+Route::get('/project', function () {
+    return view('project');
 });
