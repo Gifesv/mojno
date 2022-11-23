@@ -26,3 +26,6 @@ Route::get('/main', function () {
 Route::get('/portfolio', function () {
     return view('portfolio');
 });
+Route::get('/blog', function () {
+    return view('blog');
+});

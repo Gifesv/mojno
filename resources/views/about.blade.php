@@ -25,16 +25,16 @@
                         <a class="header__nav-link" href="http://mojno.lo/portfolio">портфолио</a>
                     </li>
                     <li class="header__nav-item">
-                        <a class="header__nav-link" href="#">услуги</a>
+                        <a class="header__nav-link" href="http://mojno.lo/services">услуги</a>
                     </li>
                     <li class="header__nav-item">
-                        <a class="header__nav-link" href="#">блог</a>
+                        <a class="header__nav-link" href="http://mojno.lo/blog">блог</a>
                     </li>
                     <li class="header__nav-item">
-                        <a class="header__nav-link" href="#">аудит</a>
+                        <a class="header__nav-link" href="http://mojno.lo/audit">аудит</a>
                     </li>
                     <li class="header__nav-item">
-                        <a class="header__nav-link header__contact" href="#">связаться</a>
+                        <a class="header__nav-link header__contact" href="http://mojno.lo/contact">связаться</a>
                     </li>
                 </ul>
             </nav>
