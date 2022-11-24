@@ -1,0 +1,55 @@
+.service {
+    margin-top: 42px;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;    
+    }
+    
+    &__img {
+        width: 100%;
+        max-width: 1728px;
+    }
+
+    &__content {
+        width: 1008px;
+        margin: 60px auto 97px auto;
+    }
+
+    &__title {
+        font-family: Raleway, sans-serif;
+        font-size: 29px;
+        font-weight: 700;
+        line-height: 51px;
+        margin-bottom: 8px;
+    }
+
+    &__wrap {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    &__subtitle {
+        font-family: Raleway, sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 40px;
+        border: 5px solid black;
+        padding: 4px 30px;
+        white-space: nowrap;
+        display: inline-block;
+        margin-right: 28px;
+        margin-top: 27px;
+    }
+
+    &__text {
+        font-family: Raleway, sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 40px;
+        margin-top: 58px;
+    }
+}

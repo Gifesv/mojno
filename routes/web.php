@@ -32,3 +32,7 @@ Route::get('/blog', function () {
 Route::get('/project', function () {
     return view('project');
 });
+
+Route::get('/service', function () {
+    return view('service');
+});
