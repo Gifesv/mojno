@@ -391,6 +391,11 @@ template {
   font-weight: 700;
   src: url(/public/fonts/Inter-Bold.ttf);
 }
+@font-face {
+  font-family: Raleway;
+  font-weight: 400;
+  src: url(/public/fonts/Raleway-Italic.ttf);
+}
 .header {
   max-width: 1550px;
   margin: 40px auto 0 auto;
@@ -953,12 +958,9 @@ template {
 .service {
   margin-top: 42px;
 }
-.service__logo {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
 .service__img {
+  display: block;
+  margin: 0 auto;
   width: 100%;
   max-width: 1728px;
 }
@@ -997,4 +999,201 @@ template {
   font-weight: 500;
   line-height: 40px;
   margin-top: 58px;
+}
+
+.offers__img {
+  display: block;
+  margin: 54px auto 0 auto;
+  width: 100%;
+  max-width: 1379px;
+}
+.offers__content {
+  width: 1369px;
+  margin: 0 auto 92px auto;
+  border: 5px solid black;
+}
+.offers__wrap {
+  width: 997px;
+  margin: 74px auto 87px auto;
+}
+.offers__title {
+  font-family: Raleway, sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 51px;
+}
+.offers__item {
+  margin-top: -5px;
+  padding-left: 32px;
+  padding-right: 21px;
+  border: 5px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.offers__item:first-of-type {
+  margin-top: 31px;
+}
+.offers__item:last-of-type {
+  margin-top: 0;
+}
+.offers__price {
+  font-family: Raleway, sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 51px;
+  border: 5px solid black;
+  padding: 4px 65px;
+  margin-top: 9px;
+  display: inline-block;
+}
+.offers__line {
+  border-bottom: 3px solid #B7B7B7;
+  border-style: dashed;
+  margin: 75px auto 65px auto;
+}
+.offers__item-content {
+  background-color: #F3F3F3;
+  padding: 0 0 50px 68px;
+  color: #505050;
+}
+.offers__item-title {
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 49px;
+}
+.offers__list {
+  list-style-type: disc;
+  margin-left: 22px;
+}
+.offers__list-item {
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.offers__subtitle {
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.offers__subtitle span {
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.offers__text {
+  margin-top: 23px;
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #9E9E9E;
+}
+.offers__text span {
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 32px;
+}
+.offers__btn {
+  color: white;
+  background-color: black;
+  width: 100%;
+  padding: 26px 0;
+  margin-top: 68px;
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.offers__content-text {
+  font-family: Raleway, sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 40px;
+  background-color: #DBFF00;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.products__content {
+  width: 997px;
+  margin: 0 auto;
+}
+.products__title {
+  font-family: Raleway, sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 51px;
+  margin: 62px auto 28px auto;
+}
+.products__title span {
+  font-family: Raleway, sans-serif;
+  font-size: 29px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 51px;
+  color: #505050;
+}
+.products__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.products__text {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 53px;
+}
+.products__text span {
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 53px;
+}
+.products__price {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 53px;
+}
+.products__price span {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 53px;
+}
+.products__item {
+  border: 5px solid black;
+  background-color: #F3F3F3;
+  display: flex;
+  margin-bottom: 58px;
+}
+.products__item:last-child {
+  margin-bottom: 77px;
+}
+.products__img {
+  width: 195px;
+  height: 195px;
+}
+.products__item-text {
+  margin-top: 55px;
+  margin-left: 48px;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.products__item-text span {
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 30px;
 }
