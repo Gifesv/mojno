@@ -1,3 +1,7 @@
+@extends('layouts.default')
+
+@section('content')
+    
     <div class="project">
         <div class="section-title">
             <div class="section-title__line">
@@ -47,3 +51,5 @@
         </div>
         
     </div>
+
+@endsection
