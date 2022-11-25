@@ -11,11 +11,11 @@
 
 /***/ "./resources/js/components/_hello.js":
 /*!*******************************************!*\
-  !*** ./resources/js/components/_hello.js ***!
+  !*** ./resources/js/components/_accordion.js ***!
   \*******************************************/
 /***/ (() => {
 
-eval("console.log('hello world');//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvanMvY29tcG9uZW50cy9faGVsbG8uanMuanMiLCJuYW1lcyI6WyJjb25zb2xlIiwibG9nIl0sInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvY29tcG9uZW50cy9faGVsbG8uanM/MmE2MyJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zb2xlLmxvZygnaGVsbG8gd29ybGQnKTtcbiJdLCJtYXBwaW5ncyI6IkFBQUFBLE9BQU8sQ0FBQ0MsR0FBRyxDQUFDLGFBQWEsQ0FBQyJ9\n//# sourceURL=webpack-internal:///./resources/js/components/_hello.js\n");
+eval("$(document).ready(function () {\n  $('.accordion__item').click(function () {\n    if ($(this).hasClass('accordion__item_active')) {\n      $(this).removeClass('accordion__item_active');\n      $(this).find('.accordion__content').stop().slideUp(350);\n    } else {\n      $(this).addClass('accordion__item_active');\n      $(this).find('.accordion__content').stop().slideDown(350);\n    }\n  });\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvanMvY29tcG9uZW50cy9faGVsbG8uanMuanMiLCJuYW1lcyI6WyIkIiwiZG9jdW1lbnQiLCJyZWFkeSIsImNsaWNrIiwiaGFzQ2xhc3MiLCJyZW1vdmVDbGFzcyIsImZpbmQiLCJzdG9wIiwic2xpZGVVcCIsImFkZENsYXNzIiwic2xpZGVEb3duIl0sInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvY29tcG9uZW50cy9faGVsbG8uanM/MmE2MyJdLCJzb3VyY2VzQ29udGVudCI6WyIkKGRvY3VtZW50KS5yZWFkeShmdW5jdGlvbigpIHtcbiAgICQoJy5hY2NvcmRpb25fX2l0ZW0nKS5jbGljayhmdW5jdGlvbigpIHtcbiAgICAgIGlmICgkKHRoaXMpLmhhc0NsYXNzKCdhY2NvcmRpb25fX2l0ZW1fYWN0aXZlJykpIHtcbiAgICAgICAgICAkKHRoaXMpLnJlbW92ZUNsYXNzKCdhY2NvcmRpb25fX2l0ZW1fYWN0aXZlJyk7XG4gICAgICAgICAgJCh0aGlzKS5maW5kKCcuYWNjb3JkaW9uX19jb250ZW50Jykuc3RvcCgpLnNsaWRlVXAoMzUwKTtcbiAgICAgIH0gZWxzZSB7XG4gICAgICAgICAgJCh0aGlzKS5hZGRDbGFzcygnYWNjb3JkaW9uX19pdGVtX2FjdGl2ZScpO1xuICAgICAgICAgICQodGhpcykuZmluZCgnLmFjY29yZGlvbl9fY29udGVudCcpLnN0b3AoKS5zbGlkZURvd24oMzUwKTtcbiAgICAgIH1cbiAgIH0pO1xufSk7XG4iXSwibWFwcGluZ3MiOiJBQUFBQSxDQUFDLENBQUNDLFFBQVEsQ0FBQyxDQUFDQyxLQUFLLENBQUMsWUFBVztFQUMxQkYsQ0FBQyxDQUFDLGtCQUFrQixDQUFDLENBQUNHLEtBQUssQ0FBQyxZQUFXO0lBQ3BDLElBQUlILENBQUMsQ0FBQyxJQUFJLENBQUMsQ0FBQ0ksUUFBUSxDQUFDLHdCQUF3QixDQUFDLEVBQUU7TUFDNUNKLENBQUMsQ0FBQyxJQUFJLENBQUMsQ0FBQ0ssV0FBVyxDQUFDLHdCQUF3QixDQUFDO01BQzdDTCxDQUFDLENBQUMsSUFBSSxDQUFDLENBQUNNLElBQUksQ0FBQyxxQkFBcUIsQ0FBQyxDQUFDQyxJQUFJLEVBQUUsQ0FBQ0MsT0FBTyxDQUFDLEdBQUcsQ0FBQztJQUMzRCxDQUFDLE1BQU07TUFDSFIsQ0FBQyxDQUFDLElBQUksQ0FBQyxDQUFDUyxRQUFRLENBQUMsd0JBQXdCLENBQUM7TUFDMUNULENBQUMsQ0FBQyxJQUFJLENBQUMsQ0FBQ00sSUFBSSxDQUFDLHFCQUFxQixDQUFDLENBQUNDLElBQUksRUFBRSxDQUFDRyxTQUFTLENBQUMsR0FBRyxDQUFDO0lBQzdEO0VBQ0gsQ0FBQyxDQUFDO0FBQ0wsQ0FBQyxDQUFDIn0=\n//# sourceURL=webpack-internal:///./resources/js/components/_accordion.js\n");
 
 /***/ }),
 
@@ -65,7 +65,7 @@ webpackContext.id = "./resources/js/components sync recursive _[^_].*\\.(js)$";
 /************************************************************************/
 /******/ 	// The module cache
 /******/ 	var __webpack_module_cache__ = {};
-/******/ 	
+/******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
 /******/ 		// Check if module is in cache
@@ -79,26 +79,26 @@ webpackContext.id = "./resources/js/components sync recursive _[^_].*\\.(js)$";
 /******/ 			// no module.loaded needed
 /******/ 			exports: {}
 /******/ 		};
-/******/ 	
+/******/
 /******/ 		// Execute the module function
 /******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
-/******/ 	
+/******/
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
-/******/ 	
+/******/
 /************************************************************************/
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
 /******/ 	})();
-/******/ 	
+/******/
 /************************************************************************/
-/******/ 	
+/******/
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval-source-map devtool is used.
 /******/ 	var __webpack_exports__ = __webpack_require__("./resources/js/index.js");
-/******/ 	
+/******/
 /******/ })()
 ;

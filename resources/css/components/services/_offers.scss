@@ -1,0 +1,103 @@
+.offers {
+    &__img {
+        display: block;
+        margin: 54px auto 0 auto;
+        width: 100%;
+        max-width: 1379px;
+    }
+
+    &__content {
+        max-width: 1369px;
+        margin: 0 auto 92px auto;
+        border: 5px solid black;
+        border-top: none;
+    }
+
+    &__wrap {
+        max-width: 997px;
+        padding-block: 74px 87px;
+        margin-inline: auto;
+    }
+
+    &__title {
+        font-family: Raleway, sans-serif;
+        font-size: 29px;
+        font-weight: 700;
+        line-height: 51px;
+    }
+
+    &__price {
+        font-family: Raleway, sans-serif;
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 51px;
+        border: 5px solid black;
+        padding: 4px 65px;
+        margin-top: 9px;
+        display: inline-block;
+
+    }
+
+    &__line {
+        height: 10px;
+        margin: 75px 0 65px 0;
+        background: no-repeat center center/auto auto url('/public/img/line.png');
+    }
+
+    &__accordion {
+        margin-top: 30px;
+    }
+
+    &__subtitle {
+        font-family: Raleway, sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 40px;
+
+        span {
+            font-family: Raleway, sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 40px;
+        }
+    }
+
+    &__text {
+        margin-top: 23px;
+        font-family: Raleway, sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 32px;
+        color: #9E9E9E;
+
+        span {
+            font-family: Raleway, sans-serif;
+            font-size: 22px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 32px;
+        }
+    }
+
+    &__btn {
+        color: white;
+        background-color: black;
+        width: 100%;
+        padding: 26px 0;
+        margin-top: 68px;
+        font-family: Raleway, sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+    &__content-text {
+        font-family: Raleway, sans-serif;
+        font-size: 29px;
+        font-weight: 700;
+        line-height: 40px;
+        background-color: #DBFF00;
+        text-align: center;
+        padding: 15px 0;
+    }
+}
