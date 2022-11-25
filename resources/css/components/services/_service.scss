@@ -254,13 +254,27 @@
         background-color: #F3F3F3;
         display: flex;
         margin-bottom: 58px;
+        position: relative;
 
         &:last-child {
             margin-bottom: 77px;
         }
 
         &::after {
-            //полоска ебаная между блоками
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 100%;
+            border-left: 5px solid black;
+            height: 65px;
+        }
+
+        &:last-child::after {
+            display: none;
+        }
+
+        &:nth-of-type(6)::after {
+            display: none;
         }
     }
 

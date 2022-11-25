@@ -33,6 +33,6 @@ Route::get('/project', function () {
     return view('project');
 });
 
-Route::get('/service', function () {
+Route::get('/services', function () {
     return view('service');
 });
