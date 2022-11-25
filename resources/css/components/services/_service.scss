@@ -1,6 +1,6 @@
 .service {
     margin-top: 42px;
-    
+
     &__img {
         display: block;
         margin: 0 auto;
@@ -59,13 +59,13 @@
     }
 
     &__content {
-        width: 1369px;
+        max-width: 1369px;
         margin: 0 auto 92px auto;
         border: 5px solid black;
     }
 
     &__wrap {
-        width: 997px;
+        max-width: 997px;
         margin: 74px auto 87px auto;
     }
 
@@ -107,9 +107,9 @@
     }
 
     &__line {
-        border-bottom: 3px solid #B7B7B7;
-        border-style: dashed;
-        margin: 75px auto 65px auto;
+        height: 10px;
+        margin: 75px 0 65px 0;
+        background: no-repeat center center/auto auto url('/public/img/line.png');
     }
 
     &__item-content {
@@ -225,7 +225,7 @@
         font-size: 24px;
         font-weight: 500;
         line-height: 53px;
-        
+
         span {
             font-family: Raleway;
             font-size: 24px;
@@ -298,6 +298,6 @@
             font-weight: 300;
             line-height: 30px;
         }
-        
+
     }
 }

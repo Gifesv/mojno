@@ -1,8 +1,6 @@
 @extends('layouts.default')
 
 @section('content')
-
-
 <div class="service">
     <div class="section-title">
         <div class="section-title__line">
@@ -189,7 +187,7 @@
         </div>
         <div class="products__item">
             <img class="products__img" src="public/img/services/logo9.png" alt="logo9">
-            <p class="products__item-text">Дополнительные услуги <span>(если вы что-то добавляли <br> в пакет)</span> 
+            <p class="products__item-text">Дополнительные услуги <span>(если вы что-то добавляли <br> в пакет)</span>
             </p>
         </div>
         <div class="products__item">
