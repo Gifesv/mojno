@@ -2,7 +2,10 @@
     <div class="header__inner">
         <div class="header__logo">
             <img class="header__img" src="public/img/header/logo.svg" alt="logo" />
-            <div class="header__agency">BRANDING <br /> AGENCY</div>
+            <div class="header__agency">BRANDING  AGENCY</div>
+        </div>
+        <div class="header__nav-menu">
+            <span class="header__nav-icon"></span>
         </div>
         <nav class="header__nav">
             <ul class="header__nav-list">
