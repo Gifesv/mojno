@@ -15,7 +15,7 @@
 
         &::after {
             content: '';
-            border-left: 2px solid black;
+            border-right: 2px solid black;
             height: 24px;    
             margin-left: 55px;
         }
@@ -23,5 +23,50 @@
         &:last-child::after {
             display: none;
         }
+    }
+}
+
+@media (max-width:1440px) {
+    .jobs {
+        max-width: 1150px;
+
+        &-list__item::after {
+            margin-left: 35px;
+        }
+    }
+   
+}
+
+@media (max-width:1200px) {
+    .jobs {
+        max-width: 940px;
+
+        &-list__item{
+            font-size: 16px;
+
+            &::after {
+                margin-left: 27px;
+            }
+        }
+    }
+}
+
+@media (max-width:991px) {
+    .jobs {
+        max-width: 717px;
+
+        &-list__item{
+            font-size: 14px;
+
+            &::after {
+                margin-left: 15px;
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .jobs {
+        display: none;
     }
 }

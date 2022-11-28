@@ -41,8 +41,8 @@
             content: "";
             display: block;
             position: absolute;
-            width: 161.88px;
-            height: 37.91px;
+            width: 162px;
+            height: 38px;
             background-color: black;
             transform: rotate(-1.21deg);
             top: 37px;
@@ -54,8 +54,8 @@
             content: "";
             display: block;
             position: absolute;
-            width: 308.14px;
-            height: 37.91px;
+            width: 308px;
+            height: 38px;
             background-color: black;
             transform: rotate(2.52deg) translateX(-50%);
             top: 7px;
@@ -64,7 +64,150 @@
         }
     }
 
+    &-list__item-img {
+        width: 215px;
+        height: 215px;
+    }
+
     &-list__item:hover .team-list__item-text {
         opacity: 1;
     }
 }
+
+@media (max-width:1440px) {
+    .team {
+        &-list {
+            max-width: 1150px;
+        }
+
+        &-list__item-img {
+            width: 170px;
+            height: 170px;
+        }
+
+        &-list__item-text {
+            font-size: 26px;
+            line-height: 33px;
+
+            span {
+                font-size: 21px;
+                line-height: 30px;
+            }
+
+            &::after {
+                width: 226px;
+                height: 33px
+            }
+
+            &::before {
+                width: 156px;
+                height: 33px;
+                top: 34px;
+            }
+        }
+    }
+}
+
+@media (max-width:1200px) {
+    .team {
+        margin-top: 100px;
+
+        &-list {
+            max-width: 940px;
+        }
+
+        &-list__item-img {
+            width: 150px;
+            height: 150px;
+        }
+    }
+}
+
+@media (max-width:991px) {
+    .team {
+        margin-top: 80px;
+
+        &-list__item-img {
+            width: 130px;
+            height: 130px;
+        }
+
+        &-list__item-text {
+            font-size: 23px;
+            line-height: 30px;
+
+            span {
+                font-size: 19px;
+                line-height: 27px;
+            }
+
+            &::after {
+                width: 189px;
+                height: 32px;
+                left: 47%;
+            }
+
+            &::before {
+                width: 130px;
+                height: 26px;
+                top: 33px;
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .team {
+        margin-top: 60px;
+
+        &-list {
+            background: none;
+            display: flex;
+            overflow-x: scroll;
+            margin: 50px auto 70px auto;
+        }
+
+        &-list__item {
+            flex-direction: column;
+            align-items: center;
+            margin-right: 50px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        &-list__item-img {
+            width: 330px;
+            height: 330px;
+        }
+
+        &-list__item-text {
+            margin-top: 70px;
+            opacity: 1;
+            color: white;
+            position: relative;
+            font-size: 31px;
+            line-height: 37px;
+
+            span {
+                font-size: 26px;
+                line-height: 34px;
+            }
+
+            &::after {
+                width: 308px;
+                height: 38px;
+                left: 50%;
+            }
+
+            &::before {
+                width: 162px;
+                height: 38px;
+                top: 37px;
+            }
+        }
+    }   
+}
+
+//Тут ещё делать скролл

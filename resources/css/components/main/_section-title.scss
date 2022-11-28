@@ -30,3 +30,27 @@
         }
     }
 }
+
+@media (max-width:1440px) {
+    .section-title__line-text {
+        font-size: 35px;
+    } 
+}
+
+@media (max-width:1200px) {
+    .section-title__line-text {
+        font-size: 33px;
+    } 
+}
+
+@media (max-width:991px) {
+    .section-title__line-text {
+        font-size: 31px;
+    } 
+}
+
+@media (max-width:768px) {
+    .section-title__line-text {
+        font-size: 29px;
+    } 
+}

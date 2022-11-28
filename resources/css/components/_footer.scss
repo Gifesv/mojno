@@ -37,3 +37,44 @@
         align-items: center;
     }
 }
+
+@media (max-width: 1440px) {
+    .footer {
+        &__container {
+            max-width: 940px;
+            box-sizing: content-box;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .footer {
+        &__container {
+            max-width: 717px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding-bottom: 100px;
+
+        &__container {
+            max-width: 517px;
+            flex-direction: column;
+        }
+
+        &__logo-wrap {
+            margin-top: 70px;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .footer {
+
+        &__text {
+            font-size: 19px;
+        }
+    }
+}
