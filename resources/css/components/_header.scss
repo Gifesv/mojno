@@ -125,13 +125,123 @@
     }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1600px) {
+    .header {
+        margin-inline: 40px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .header {
+        margin-inline: 40px;
+
+        &__img {
+            width: 389px;
+            height: 70px;
+        }
+    }
+    
+}
+
+@media (max-width: 1320px) {
+    .header {
+        &__nav {
+            font-size: 22px;
+        }
+
+        &__img {
+            width: 345px;
+            height: 62px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .header {
+
+        &__logo {
+            position: relative;
+            display: block;
+            margin-left: 29px;
+            z-index: 47;
+        }
+
+        &__agency {
+            font-size: 15px;
+            border: none;
+            white-space: nowrap;
+            padding: 0;
+        }
+
+        &__nav {
+            font-size: 20px;
+        }
+
+        &__img {
+            width: 220px;
+            height: 39px;
+        }
+
+        &__contact::after { 
+            top: 5px;
+            left: 20px;
+        }
+
+        &__contact::before {
+            top: -1px;
+            right: 12px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .header {
+        margin-inline: 0 ;
+        margin-right: 15px;
+
+        &__contact::after {
+            width: 87px;
+            height: 19px;
+            top: 4px;
+            left: 16px;
+        }
+
+        &__contact::before {
+            width: 87px;
+            height: 19px;
+            top: -1px;
+            right: 5px;
+        }
+
+        &__agency {
+            font-size: 12px;
+        }
+
+        &__img {
+            width: 194px;
+            height: 34px;
+        }
+
+        &__nav {
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
     .header {
         position: relative;
+        border-bottom: 2px solid #D7D7D7;
+        
+
+        &__nav-link_underline::after {
+            display: none;
+        }
 
         &__inner {
             align-items: center;
             padding-block: 15px;
+            margin-right: 30px;
         }
 
         &::before {
@@ -143,24 +253,10 @@
             z-index: 46;
         }
 
-        &__logo {
-            position: relative;
-            display: block;
-            margin-left: 29px;
-            z-index: 47;
-        }
-
         &__img {
             width: 194px;
             height: 34px;
-        }
-
-        &__agency {
-            font-size: 8px;
-            border: none;
-            white-space: nowrap;
-            padding: 0;
-        }
+        } 
 
         &__nav-menu {
             display: block;
@@ -189,11 +285,12 @@
             left: 0;
             padding: 120px 0 0 0;
             transform: translateY(-100%);
-            background-color: orange;
+            background-color: white;
             text-align: center;
             transition: all 0.3s ease 0s;
             border-top: 5px solid black;
             z-index: 45;
+            font-size: 24px;
         }
 
         &__nav.active {
@@ -224,6 +321,15 @@
 
         &__contact::after, &__contact::before {
             display: none;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .header {
+        
+        &__agency {
+            font-size: 8px;
         }
     }
 }

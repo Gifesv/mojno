@@ -507,13 +507,98 @@ template {
   transition: all 0.3s ease 0s;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1600px) {
+  .header {
+    margin-inline: 40px;
+  }
+}
+@media (max-width: 1440px) {
+  .header {
+    margin-inline: 40px;
+  }
+  .header__img {
+    width: 389px;
+    height: 70px;
+  }
+}
+@media (max-width: 1320px) {
+  .header__nav {
+    font-size: 22px;
+  }
+  .header__img {
+    width: 345px;
+    height: 62px;
+  }
+}
+@media (max-width: 1200px) {
+  .header__logo {
+    position: relative;
+    display: block;
+    margin-left: 29px;
+    z-index: 47;
+  }
+  .header__agency {
+    font-size: 15px;
+    border: none;
+    white-space: nowrap;
+    padding: 0;
+  }
+  .header__nav {
+    font-size: 20px;
+  }
+  .header__img {
+    width: 220px;
+    height: 39px;
+  }
+  .header__contact::after {
+    top: 5px;
+    left: 20px;
+  }
+  .header__contact::before {
+    top: -1px;
+    right: 12px;
+  }
+}
+@media (max-width: 991px) {
+  .header {
+    margin-inline: 0;
+    margin-right: 15px;
+  }
+  .header__contact::after {
+    width: 87px;
+    height: 19px;
+    top: 4px;
+    left: 16px;
+  }
+  .header__contact::before {
+    width: 87px;
+    height: 19px;
+    top: -1px;
+    right: 5px;
+  }
+  .header__agency {
+    font-size: 12px;
+  }
+  .header__img {
+    width: 194px;
+    height: 34px;
+  }
+  .header__nav {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
   .header {
     position: relative;
+    border-bottom: 2px solid #D7D7D7;
+  }
+  .header__nav-link_underline::after {
+    display: none;
   }
   .header__inner {
     align-items: center;
     padding-block: 15px;
+    margin-right: 30px;
   }
   .header::before {
     content: "";
@@ -523,21 +608,9 @@ template {
     background: #fff;
     z-index: 46;
   }
-  .header__logo {
-    position: relative;
-    display: block;
-    margin-left: 29px;
-    z-index: 47;
-  }
   .header__img {
     width: 194px;
     height: 34px;
-  }
-  .header__agency {
-    font-size: 8px;
-    border: none;
-    white-space: nowrap;
-    padding: 0;
   }
   .header__nav-menu {
     display: block;
@@ -564,11 +637,12 @@ template {
     left: 0;
     padding: 120px 0 0 0;
     transform: translateY(-100%);
-    background-color: orange;
+    background-color: white;
     text-align: center;
     transition: all 0.3s ease 0s;
     border-top: 5px solid black;
     z-index: 45;
+    font-size: 24px;
   }
   .header__nav.active {
     transform: translateY(0);
@@ -593,6 +667,11 @@ template {
   }
   .header__contact::after, .header__contact::before {
     display: none;
+  }
+}
+@media (max-width: 450px) {
+  .header__agency {
+    font-size: 8px;
   }
 }
 .accordion__item {
