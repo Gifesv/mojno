@@ -21,7 +21,7 @@
             <p class="section-title__line-text">КОНТАКТЫ</p>
         </div>
     </div>
-    <div class="footer__container">
+    <div class="footer__wrapper container">
         <div>
             <p class="footer__text">
                 Телефон:
