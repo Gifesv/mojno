@@ -366,6 +366,92 @@ template {
   display: none;
 }
 
+/* Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.slick-list:focus {
+  outline: none;
+}
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slick-track:before, .slick-track:after {
+  content: "";
+  display: table;
+}
+.slick-track:after {
+  clear: both;
+}
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none;
+}
+[dir=rtl] .slick-slide {
+  float: right;
+}
+.slick-slide img {
+  display: block;
+}
+.slick-slide.slick-loading img {
+  display: none;
+}
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+.slick-initialized .slick-slide {
+  display: block;
+}
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
 @font-face {
   font-family: Raleway;
   font-weight: 700;
@@ -396,6 +482,42 @@ template {
   font-family: Inter;
   font-weight: 700;
   src: url(/public/fonts/Inter-Bold.ttf);
+}
+.container {
+  max-width: 1720px;
+  margin-inline: auto;
+  padding-inline: 25px;
+}
+
+@media (max-width: 1800px) {
+  .container {
+    max-width: 1380px;
+  }
+}
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    padding-inline: 15px;
+  }
 }
 .header {
   max-width: 1550px;
@@ -562,7 +684,6 @@ template {
 @media (max-width: 991px) {
   .header {
     margin-inline: 0;
-    margin-right: 25px;
   }
   .header__contact::after {
     width: 87px;
@@ -870,8 +991,7 @@ template {
   }
 }
 .jobs {
-  max-width: 1440px;
-  margin: 170px auto 0 auto;
+  margin-top: 170px;
 }
 .jobs-list {
   display: flex;
@@ -894,17 +1014,11 @@ template {
 }
 
 @media (max-width: 1440px) {
-  .jobs {
-    max-width: 1150px;
-  }
   .jobs-list__item::after {
     margin-left: 35px;
   }
 }
 @media (max-width: 1200px) {
-  .jobs {
-    max-width: 940px;
-  }
   .jobs-list__item {
     font-size: 16px;
   }
@@ -912,18 +1026,7 @@ template {
     margin-left: 27px;
   }
 }
-@media (max-width: 991px) {
-  .jobs {
-    max-width: 717px;
-  }
-  .jobs-list__item {
-    font-size: 14px;
-  }
-  .jobs-list__item::after {
-    margin-left: 15px;
-  }
-}
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .jobs {
     display: none;
   }
@@ -1109,7 +1212,7 @@ template {
 }
 .team-list__item {
   position: relative;
-  display: flex;
+  display: flex !important;
   justify-content: center;
   width: 100%;
 }
@@ -1240,7 +1343,6 @@ template {
   .team-list__item {
     flex-direction: column;
     align-items: center;
-    margin-right: 50px;
   }
   .team-list__item:last-child {
     margin-right: 0;

@@ -9,15 +9,17 @@
     </div>
 
     <div class="jobs">
-        <ul class="jobs-list">
-            <li class="jobs-list__item">упаковка бренда</li>
-            <li class="jobs-list__item">дизайн</li>
-            <li class="jobs-list__item">исследования</li>
-            <li class="jobs-list__item">таргет</li>
-            <li class="jobs-list__item">соцсети</li>
-            <li class="jobs-list__item">исследования</li>
-            <li class="jobs-list__item">сайты</li>
-        </ul>
+        <div class="container">
+            <ul class="jobs-list">
+                <li class="jobs-list__item">упаковка бренда</li>
+                <li class="jobs-list__item">дизайн</li>
+                <li class="jobs-list__item">исследования</li>
+                <li class="jobs-list__item">таргет</li>
+                <li class="jobs-list__item">соцсети</li>
+                <li class="jobs-list__item">исследования</li>
+                <li class="jobs-list__item">сайты</li>
+            </ul>
+        </div>
     </div>
 
     <div class="projects">

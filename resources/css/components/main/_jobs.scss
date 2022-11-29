@@ -1,6 +1,5 @@
 .jobs {
-    max-width: 1440px;
-    margin: 170px auto 0 auto;
+    margin-top: 170px;
 
     &-list {
         display: flex;
@@ -16,7 +15,7 @@
         &::after {
             content: '';
             border-right: 2px solid black;
-            height: 24px;    
+            height: 24px;
             margin-left: 55px;
         }
 
@@ -28,20 +27,17 @@
 
 @media (max-width:1440px) {
     .jobs {
-        max-width: 1150px;
-
         &-list__item::after {
             margin-left: 35px;
         }
     }
-   
+
 }
 
 @media (max-width:1200px) {
     .jobs {
-        max-width: 940px;
 
-        &-list__item{
+        &-list__item {
             font-size: 16px;
 
             &::after {
@@ -51,21 +47,7 @@
     }
 }
 
-@media (max-width:991px) {
-    .jobs {
-        max-width: 717px;
-
-        &-list__item{
-            font-size: 14px;
-
-            &::after {
-                margin-left: 15px;
-            }
-        }
-    }
-}
-
-@media (max-width:768px) {
+@media (max-width:992px) {
     .jobs {
         display: none;
     }
