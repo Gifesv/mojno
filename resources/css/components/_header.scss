@@ -197,38 +197,6 @@
 @media (max-width: 991px) {
     .header {
         margin-inline: 0;
-
-        &__contact::after {
-            width: 87px;
-            height: 19px;
-            top: 4px;
-            left: 16px;
-        }
-
-        &__contact::before {
-            width: 87px;
-            height: 19px;
-            top: -1px;
-            right: 5px;
-        }
-
-        &__agency {
-            font-size: 12px;
-        }
-
-        &__img {
-            width: 194px;
-            height: 34px;
-        }
-
-        &__nav {
-            font-size: 15px;
-        }
-    }
-}
-
-@media (max-width: 768px) {
-    .header {
         position: relative;
         border-bottom: 2px solid #D7D7D7;
 
@@ -282,7 +250,7 @@
             position: absolute;
             top: 100%;
             left: 0;
-            padding: 120px 0 0 0;
+            padding: 92px 0 0 0;
             transform: translateY(-100%);
             background-color: white;
             text-align: center;

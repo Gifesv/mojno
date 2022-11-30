@@ -23,8 +23,8 @@
 
 @media (max-width:1200px) {
     .tagline {
-        max-width: 940px;
-        box-sizing: content-box;
+        // max-width: 940px;
+        // box-sizing: content-box;
 
         &__letter-img {
             width: 370px;
@@ -39,7 +39,7 @@
 
 @media (max-width:991px) {
     .tagline {
-        max-width: 717px;
+        // max-width: 717px;
 
         &__letter-img {
             width: 300px;

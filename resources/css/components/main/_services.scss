@@ -1,5 +1,4 @@
 .services {
-    width: 100%;
     max-width: 814px;
     margin: 90px auto 0 auto;
 
@@ -29,7 +28,7 @@
 
 @media (max-width:991px) {
     .services {
-        max-width: 718px;
+        // max-width: 718px;
         box-sizing: content-box;
         margin-top: 80px;
 
@@ -51,7 +50,7 @@
 
 @media (max-width:768px) {
     .services {
-        max-width: 518px;
+        // max-width: 518px;
         margin-top: 70px;
 
         &__text {
@@ -73,7 +72,7 @@
 //Вот тут к кнопкой траблы
 @media (max-width:568px) {
     .services{
-        max-width: 360px;
+        // max-width: 360px;
         margin-top: 42px;
         padding-inline: 15px;
 
@@ -90,6 +89,8 @@
             font-size: 19px;
             margin-top: 47px;
             margin-inline: -15px;
+            box-sizing: content-box;
+            padding-inline: 13px;
         }
     }
 }

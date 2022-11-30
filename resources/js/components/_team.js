@@ -18,11 +18,25 @@ function teamSlider(){
                 infinite: true,
                 responsive: [
                     {
-                        breakpoint: 1,
+                        breakpoint: 568,
                         settings: {
+                            arrows: false,
+                            centerMode: true,
                             centerPadding: '100px',
-                        },
-                    }
+                            slidesToShow: 1,
+                            infinite: true,
+                        }
+                    },
+                    {
+                        breakpoint: 450,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 1,
+                            infinite: true,
+                        }
+                    },
                 ]
             });
             slider = true;

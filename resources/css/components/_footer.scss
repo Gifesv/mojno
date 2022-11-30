@@ -3,7 +3,7 @@
     color: white;
     padding-bottom: 210px;
     
-    &__container {
+    &__wrapper {
         margin: 0 auto;
         padding-top: 77px;
         max-width: 1243px;
@@ -38,29 +38,11 @@
     }
 }
 
-@media (max-width: 1440px) {
-    .footer {
-        &__container {
-            max-width: 940px;
-            box-sizing: content-box;
-        }
-    }
-}
-
-@media (max-width: 991px) {
-    .footer {
-        &__container {
-            max-width: 717px;
-        }
-    }
-}
-
 @media (max-width: 768px) {
     .footer {
         padding-bottom: 100px;
 
-        &__container {
-            max-width: 517px;
+        &__wrapper {
             flex-direction: column;
         }
 

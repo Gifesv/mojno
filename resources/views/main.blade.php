@@ -1,8 +1,8 @@
 @extends('layouts.default')
 
 @section('content')
-    <div class="tagline">
-        <div class="tagline__wrapper">
+    <div class="tagline container">
+        <div class="tagline__wrapper ">
             <p class="tagline__text">Мы создаем бренды, <br> которыми предприниматели <br> будут гордиться</p>
             <img class="tagline__letter-img" src="public/img/main/one_letter_logo.png" alt="one_letter_logo">
         </div>
@@ -71,7 +71,7 @@
         </div>
     </div>
 
-    <div class="services">
+    <div class="services container">
         <p class="services__text">Каждому проекту мы создаем сильную брендинговую платформу,
             чтобы креативные идеи работали на ваш бизнес.</p>
         <p class="services__text">Мы знаем, как для предпринимателя важно его дело, поэтому выстраиваем нашу
