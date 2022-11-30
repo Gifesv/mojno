@@ -29,7 +29,6 @@
 
 @media (max-width:991px) {
     .services {
-        // max-width: 718px;
         box-sizing: content-box;
         margin-top: 80px;
 
@@ -51,9 +50,7 @@
 
 @media (max-width:768px) {
     .services {
-        // max-width: 518px;
         margin-top: 70px;
-        // max-width: none;
 
         &__text {
             font-size: 20px;
@@ -67,15 +64,12 @@
         &__btn {
             font-size: 20px;
             margin-top: 47px;
-            // margin-inline: -25px;
         }
     }
 }
 
-//Вот тут к кнопкой траблы
 @media (max-width:568px) {
     .services{
-        // max-width: 360px;
         margin-top: 42px;
 
         &__text {

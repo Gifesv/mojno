@@ -14,7 +14,7 @@
             margin-bottom: 110px;
         }
     }
-    
+
     &-list__item-img {
         width: 100%;
     }
@@ -66,16 +66,14 @@
 
 @media (max-width:768px) {
     .projects {
-
         &-list {
             grid-template-columns: repeat(2, 1fr)
-        } 
+        }
     }
 }
 
 @media (max-width:450px) {
     .projects {
-
         .projects-list__item-text {
             font-size: 17px;
             line-height: 27px;

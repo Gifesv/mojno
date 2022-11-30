@@ -10,8 +10,8 @@
         </div>
     </div>
 
-    <div class="jobs">
-        <div class="container">
+    <div class="container">
+        <div class="jobs">
             <ul class="jobs-list">
                 <li class="jobs-list__item">упаковка бренда</li>
                 <li class="jobs-list__item">дизайн</li>
@@ -82,7 +82,6 @@
             <button class="services__btn">НАШИ УСЛУГИ</button>
         </div>
     </div>
-   
 
     <x-team></x-team>
 @endsection

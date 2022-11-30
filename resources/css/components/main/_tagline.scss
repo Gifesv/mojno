@@ -23,8 +23,6 @@
 
 @media (max-width:1200px) {
     .tagline {
-        // max-width: 940px;
-        // box-sizing: content-box;
 
         &__letter-img {
             width: 370px;
@@ -39,7 +37,6 @@
 
 @media (max-width:991px) {
     .tagline {
-        // max-width: 717px;
 
         &__letter-img {
             width: 300px;
@@ -59,7 +56,6 @@
 
         &__wrapper {
             flex-direction: column;
-            
         }
 
         &__letter-img {
@@ -79,7 +75,6 @@
 
 @media (max-width:450px) {
     .tagline {
-
         &__letter-img {
             width: 190px;
             height: 190px;
