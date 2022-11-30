@@ -1,6 +1,6 @@
 .header {
-    max-width: 1550px;
-    margin-inline: auto;
+    // max-width: 1550px;
+    // margin-inline: auto;
 
     &__nav-link_underline::after {
         content: "";
@@ -127,13 +127,13 @@
 
 @media (max-width: 1600px) {
     .header {
-        margin-inline: 40px;
+        // margin-inline: 40px;
     }
 }
 
 @media (max-width: 1440px) {
     .header {
-        margin-inline: 40px;
+        // margin-inline: 40px;
 
         &__img {
             width: 389px;
@@ -196,7 +196,7 @@
 
 @media (max-width: 991px) {
     .header {
-        margin-inline: 0;
+        // margin-inline: 0;
         position: relative;
         border-bottom: 2px solid #D7D7D7;
 

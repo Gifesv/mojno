@@ -1,4 +1,5 @@
 <header class="header">
+    <div class="container">
     <div class="header__inner">
         <div class="header__logo">
             <img class="header__img" src="public/img/header/logo.svg" alt="logo" />
@@ -30,4 +31,5 @@
             </ul>
         </nav>
     </div>
+</div>
 </header>
