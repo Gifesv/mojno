@@ -514,11 +514,6 @@ template {
     max-width: 540px;
   }
 }
-@media (max-width: 576px) {
-  .container {
-    padding-inline: 15px;
-  }
-}
 .header__nav-link_underline::after {
   content: "";
   width: 100%;
@@ -1122,7 +1117,6 @@ template {
 @media (max-width: 568px) {
   .services {
     margin-top: 42px;
-    padding-inline: 15px;
   }
   .services__text {
     font-size: 19px;
@@ -1132,9 +1126,10 @@ template {
     margin-bottom: 25px;
   }
   .services__btn {
+    width: calc(100% + 50px);
     font-size: 19px;
     margin-top: 47px;
-    margin-inline: -15px;
+    margin-inline: -25px;
     box-sizing: content-box;
     padding-inline: 13px;
   }
@@ -1150,6 +1145,9 @@ template {
   grid-row-gap: 50px;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
+}
+.team-list_sm {
+  display: none;
 }
 .team-list__item {
   position: relative;
@@ -1275,8 +1273,11 @@ template {
     padding: 0;
   }
   .team-list {
+    display: none;
     background: none;
-    display: flex;
+  }
+  .team-list_sm {
+    display: block;
     margin: 50px auto 70px auto;
   }
   .team-list__item {
