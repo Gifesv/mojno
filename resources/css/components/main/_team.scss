@@ -75,7 +75,7 @@
 
 @media (max-width:1440px) {
     .team {
-       
+
 
         &-list__item-img {
             width: 170px;
@@ -153,6 +153,12 @@
     .team {
         margin-top: 60px;
 
+        &__container {
+            max-width: none;
+            margin: 0;
+            padding: 0;
+        }
+
         &-list {
             background: none;
             display: flex;
@@ -201,4 +207,11 @@
     }
 }
 
-//Тут ещё делать скролл
+@media(max-width: 576px) {
+    .team {
+        &-list__item-img {
+            width: 280px;
+            height: 280px;
+        }
+    }
+}

@@ -1,40 +1,53 @@
-$(document).ready(function() {
-   $('.team-list').slick({
-       responsive: [
-           {
-             breakpoint: 9999,
-             settings: 'unslick',
-           },
-           {
-               breakpoint: 768,
-               settings: {
-                   arrows: false,
-                   centerMode: true,
-                   centerPadding: '150px',
-                   slidesToShow: 1,
-                   infinite: true,
-               }
-           },
-           {
-            breakpoint: 568,
-            settings: {
-                    arrows: false,
-                   centerMode: true,
-                   centerPadding: '100px',
-                   slidesToShow: 1,
-                   infinite: true,
-            }
-           },
-           {
-            breakpoint: 450,
-            settings: {
-                    arrows: false,
-                   centerMode: true,
-                   centerPadding: '40px',
-                   slidesToShow: 1,
-                   infinite: true,
-            }
-           },
-       ],
-   });
+let slider = false;
+$(document).ready(function(){
+    teamSlider();
+    $(window).on('resize', function(){
+        teamSlider();
+    });
 });
+
+function teamSlider(){
+    if (window.matchMedia('(max-width: 768px)').matches) {
+        if (!slider) {
+            $(".team-list").slick({
+                arrows: false,
+                centerMode: true,
+                centerPadding: '150px',
+                slidesToShow: 1,
+                infinite: true,
+                responsive: [
+                    {
+                        breakpoint: 650,
+                        settings: {
+                            centerPadding: '100px',
+                        }
+                    },
+                    {
+                        breakpoint: 550,
+                        settings: {
+                            centerPadding: '50px',
+                        }
+                    },
+                    {
+                        breakpoint: 450,
+                        settings: {
+                            centerPadding: '25px',
+                        }
+                    },
+                    {
+                        breakpoint: 375,
+                        settings: {
+                            centerPadding: '0',
+                        }
+                    },
+                ]
+            });
+            slider = true;
+        }
+    } else if (!window.matchMedia('(max-width: 768px)').matches) {
+        if (slider) {
+            $('.team-list').slick('unslick');
+            slider = false;
+        }
+    }
+};
