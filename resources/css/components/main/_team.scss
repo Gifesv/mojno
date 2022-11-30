@@ -11,6 +11,10 @@
         justify-items: center;
     }
 
+    &-list_sm {
+        display: none;
+    }
+
     &-list__item {
         position: relative;
         display: flex !important;
@@ -160,8 +164,12 @@
         }
 
         &-list {
+            display: none;
             background: none;
-            display: flex;
+        }
+
+        &-list_sm {
+            display: block;
             margin: 50px auto 70px auto;
         }
 
