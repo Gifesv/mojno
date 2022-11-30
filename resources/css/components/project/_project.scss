@@ -30,6 +30,10 @@
         max-width: 1034px;
         margin: 65px auto 0 auto;
     }
+
+    &__header+&__text {
+        margin-top: 28px;
+    }
 }
 
 
