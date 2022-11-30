@@ -1591,6 +1591,9 @@ template {
   max-width: 1034px;
   margin: 65px auto 0 auto;
 }
+.project__header + .project__text {
+  margin-top: 28px;
+}
 
 @media (max-width: 1200px) {
   .project__header {
