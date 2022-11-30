@@ -13,7 +13,7 @@
                     <a class="header__nav-link {{ Request::is('about') ? 'header__nav-link_underline' : '' }}" href="/about">о нас</a>
                 </li>
                 <li class="header__nav-item">
-                    <a class="header__nav-link {{ Request::is('portfolio') ? 'header__nav-link_underline' : '' }}" href="/portfolio">портфолио</a>
+                    <a class="header__nav-link {{ Request::is('portfolio', 'project') ? 'header__nav-link_underline' : '' }}" href="/portfolio">портфолио</a>
                 </li>
                 <li class="header__nav-item">
                     <a class="header__nav-link {{ Request::is('services') ? 'header__nav-link_underline' : '' }}" href="/services">услуги</a>

@@ -4,8 +4,7 @@
     &-list {
         background: center / 90% 120% no-repeat url(/public/img/main/lines.png);
         width: 100%;
-        max-width: 1460px;
-        margin: 77px auto 98px auto;
+        margin-block: 77px 98px ;
         display: grid;
         grid-row-gap: 50px;
         grid-template-columns: repeat(4, 1fr);
@@ -110,8 +109,6 @@
     .team {
         margin-top: 100px;
 
-       
-
         &-list__item-img {
             width: 150px;
             height: 150px;
@@ -159,7 +156,6 @@
         &-list {
             background: none;
             display: flex;
-            overflow-x: scroll;
             margin: 50px auto 70px auto;
         }
 
