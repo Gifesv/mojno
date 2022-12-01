@@ -1,14 +1,14 @@
 .staff {
     margin: 144px auto 0 auto;
-    width: 1286px;
+    max-width: 1286px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 92px;
     column-gap: 120px;
 
     &__img {
-        width: 656px;
-        height: 830px;
+        width: 100%;
+        height: 100%;
     }
 
     &__name {
@@ -24,15 +24,88 @@
         font-size: 24px;
         font-weight: 500;
         line-height: 40px;  
-        max-width: 70%;
+        max-width: 500px;
     }
 
     &__group {
+        width: 100%;
         grid-column-start: 1;
         grid-column-end: 3;
     }
 
     &__wrap {
         margin-left: 50px;
+    }
+}
+
+@media (max-width:1200px) {
+    .staff {
+
+        &__name {
+            font-size: 27px;
+        }
+
+        &__text {
+            font-size: 22px;
+            line-height: 37px;
+        }
+
+        &__wrap {
+            margin-left: 30px;
+        }
+
+    }
+}
+
+@media (max-width:991px) {
+    .staff {
+        display: flex;
+        flex-direction: column;
+        column-gap: 0;
+        row-gap: 40px;
+        align-items: center;
+
+        &__img {
+            height: 70%;
+            width: 70%;
+        }
+
+        &__name {
+            margin: 0 auto 18px auto;
+        }
+
+        &__wrap {
+            order: 5;
+            margin-left: 0;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .staff {
+
+        &__img {
+            height: 100%;
+            width: 100%;
+        }
+
+        &__text {
+            max-width: none;
+        }
+    }
+}
+
+@media (max-width:567px) {
+    .staff {
+        margin-top: 129px;
+
+        &__name {
+            font-size: 19px;
+        }
+
+        &__text {
+            font-size: 19px;
+            line-height: 29px;
+        }
     }
 }

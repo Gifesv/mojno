@@ -1,5 +1,5 @@
 .join {
-    margin: 187px auto 148px auto;
+    margin-block: 187px  148px ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,11 +17,12 @@
         font-size: 24px;
         font-weight: 500;
         line-height: 40px;
+        text-align: center;
     }
 
     &__email {
         margin-top: 23px;
-        padding: 20px 0 20px 0;
+        padding-block: 20px;
         background-color: black;
         width: 100%;
         text-align: center;
@@ -34,5 +35,60 @@
         line-height: 40px;
         color: white;
         text-decoration: none;
+    }
+}
+
+@media (max-width:991px) {
+    .join {
+        margin-block: 140px 120px;
+
+        &__head {
+            font-size: 34px;
+            line-height: 39px;
+        }
+
+        &__text {
+            font-size: 22px;
+        }
+
+        &__email-item {
+            font-size: 27px;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .join {
+        margin-block: 110px 100px;
+
+        &__head {
+            font-size: 24px;
+            line-height: 33px;
+        }
+
+        &__text {
+            font-size: 21px;
+        }
+
+        &__email-item {
+            font-size: 25px;
+        }
+    }
+}
+
+@media (max-width:567px) {
+    .join {
+        margin-block: 80px 71px;
+
+        &__head {
+            font-size: 19px;
+            text-align: center;
+            margin-inline: auto;
+            max-width: 200px;
+        }
+
+        &__text {
+            font-size: 19px;
+        }
     }
 }
