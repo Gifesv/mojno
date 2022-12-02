@@ -21,22 +21,23 @@
         </div>
     </div>
     <img class="service__img" src="/public/img/services/services-logo.png" alt="services-logo">
-    <div class="service__content">
-        <h2 class="service__title">МОЖНО:</h2>
-        <div class="service__wrap">
-            <p class="service__subtitle">упаковать бренд</p>
-            <p class="service__subtitle">сделать исследование</p>
-            <p class="service__subtitle">запустить соцсети</p>
-            <p class="service__subtitle">настроить таргет</p>
-            <p class="service__subtitle">разработать дизайн</p>
-            <p class="service__subtitle">создать сайт</p>
+    <div class="container">
+        <div class="service__content">
+            <h2 class="service__title">МОЖНО:</h2>
+            <div class="service__wrap">
+                <p class="service__subtitle">упаковать бренд</p>
+                <p class="service__subtitle">сделать исследование</p>
+                <p class="service__subtitle">запустить соцсети</p>
+                <p class="service__subtitle">настроить таргет</p>
+                <p class="service__subtitle">разработать дизайн</p>
+                <p class="service__subtitle">создать сайт</p>
+            </div>
+            <p class="service__text">Мы знаем, что у каждой компании есть разные нужды: кому-то нужен сайт, кому-то
+                упаковка. Поэтому мы сделали
+                базу к которой вы можете добавить любую из наших услуг уже после того, как мы разберемся с тем, какие шаги
+                стоит предпринимать вашему бренду дальше.</p>
         </div>
-        <p class="service__text">Мы знаем, что у каждой компании есть разные нужды: кому-то нужен сайт, кому-то
-            упаковка. Поэтому мы сделали
-            базу к которой вы можете добавить любую из наших услуг уже после того, как мы разберемся с тем, какие шаги
-            стоит предпринимать вашему бренду дальше.</p>
     </div>
-
 </div>
 
 <div class="offers">
@@ -171,8 +172,8 @@
 
     <div class="products__content">
         <h2 class="products__title">УСЛУГИ ПО ДИЗАЙНУ <span>(без брендбука)</span> :</h2>
-        <div class="products__wrap">
-            <div>
+        <div class="products__wrapper">
+            <!-- <div>
                 <p class="products__text">POS–материалы <span>(бланки, флаеры, плакаты и другие)</span></p>
                 <p class="products__text">Упаковка <span>(этикетка)</span> </p>
                 <p class="products__text">Сайт <span>(лендинг)</span> </p>
@@ -181,13 +182,40 @@
                 <p class="products__text">Иллюстрация <span>(1 шт)</span> </p>
             </div>
             <div>
-                <p class="products__price">| &nbsp 7 000 ₽/шт</p>
-                <p class="products__price">| &nbsp 10 000 ₽/шт</p>
-                <p class="products__price">| &nbsp <span>от</span> 40 000 ₽</p>
-                <p class="products__price">| &nbsp <span>от</span> 80 000 ₽</p>
-                <p class="products__price">| &nbsp 30 000 ₽</p>
-                <p class="products__price">| &nbsp <span>от</span> 10 000 ₽</p>
+                <p class="products__price">7 000 ₽/шт</p>
+                <p class="products__price">10 000 ₽/шт</p>
+                <p class="products__price"><span>от</span> 40 000 ₽</p>
+                <p class="products__price"><span>от</span> 80 000 ₽</p>
+                <p class="products__price">30 000 ₽</p>
+                <p class="products__price"><span>от</span> 10 000 ₽</p>
+            </div> -->
+            <div class="products__wrap">
+                <p class="products__text">POS–материалы <span>(бланки, флаеры, плакаты и другие)</span></p>
+                <p class="products__price">7 000 ₽/шт</p>
             </div>
+            <div class="products__wrap">
+               <p class="products__text">Упаковка <span>(этикетка)</span> </p>
+                <p class="products__price">10 000 ₽/шт</p>
+            </div>
+            <div class="products__wrap">
+               <p class="products__text">Сайт <span>(лендинг)</span> </p>
+                <p class="products__price"><span>от</span> 40 000 ₽</p>
+            </div>
+            <div class="products__wrap">
+               <p class="products__text">Сайт <span>(многостраничный)</span> </p>
+                <p class="products__price"><span>от</span> 80 000 ₽</p>
+            </div>
+            <div class="products__wrap">
+               <p class="products__text">Стикерпак <span>(20 шт)</span> </p>
+                <p class="products__price">30 000 ₽</p>
+            </div>
+            <div class="products__wrap">
+               <p class="products__text">Иллюстрация <span>(1 шт)</span> </p>
+                <p class="products__price"><span>от</span> 10 000 ₽</p>
+            </div>
+
+
+
         </div>
         <div class="offers__line"></div>
         <h2 class="products__title">КАК ПРОХОДИТ РАБОТА НАД ПРОЕКТОМ</h2>

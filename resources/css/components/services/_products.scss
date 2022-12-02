@@ -1,7 +1,7 @@
 .products {
 
     &__content {
-        width: 997px;
+        max-width: 997px;
         margin: 0 auto;
     }
 
@@ -20,6 +20,11 @@
             line-height: 51px;
             color: #505050;
         }
+    }
+
+    &__wrapper {
+        // display: flex;
+        // justify-content: space-between;
     }
 
     &__wrap {
@@ -47,6 +52,12 @@
         font-size: 24px;
         font-weight: 700;
         line-height: 53px;
+
+        &::before {
+            content: '';
+            border-left: 3px solid black;
+            margin-right: 10px;
+        }
 
         span {
             font-family: Raleway, sans-serif;
@@ -101,6 +112,5 @@
             font-weight: 300;
             line-height: 30px;
         }
-
     }
 }
