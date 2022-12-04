@@ -6,17 +6,21 @@
         max-width: 1379px;
     }
 
+    &__img-2 {
+        display: none;
+    }
+
     &__content {
         max-width: 1369px;
-        margin: 0 auto 92px auto;
+        margin-bottom: 92px;
         border: 5px solid black;
         border-top: none;
+        margin-inline: auto;
     }
 
     &__wrap {
         max-width: 997px;
-        padding-block: 74px 87px;
-        margin-inline: auto;
+        margin: 0 auto 87px auto;
     }
 
     &__title {
@@ -24,6 +28,7 @@
         font-size: 29px;
         font-weight: 700;
         line-height: 51px;
+        padding-top: 74px;
     }
 
     &__price {
@@ -63,6 +68,7 @@
     }
 
     &__text {
+        max-width: 950px;
         margin-top: 23px;
         font-family: Raleway, sans-serif;
         font-size: 22px;
@@ -92,13 +98,128 @@
         border: none;
     }
 
+    &__content-wrap {
+        background-color: #DBFF00;
+    }
+
     &__content-text {
         font-family: Raleway, sans-serif;
         font-size: 29px;
         font-weight: 700;
         line-height: 40px;
-        background-color: #DBFF00;
         text-align: center;
         padding: 15px 0;
+        margin-inline: auto;
+    }
+}
+
+@media (max-width:1200px) {
+    .offers {
+
+        &__content {
+            border: none;
+        }
+
+        &__img {
+            display: none;
+        }
+
+        &__img-2 {
+            display: block;
+            width: 100%;
+            border-bottom: 5px solid black;
+        }
+
+        &__title {
+            font-size: 26px;
+        }
+
+        &__price {
+            font-size: 26px;
+        }
+
+        &__title {
+            font-size: 26px;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .offers {
+
+        &__title {
+            font-size: 19px;
+            padding-top: 0;
+        }
+
+        &__price {
+            font-size: 19px;
+        }
+
+        &__subtitle {
+            font-size: 19px;
+            line-height: 27px;
+
+            span {
+                font-size: 19px;
+            }
+        }
+
+        &__text {
+            font-size: 19px;
+            line-height: 23px;
+
+            span {
+                font-size: 19px;
+                line-height: 23px;
+            }
+        }
+
+        &__btn {
+            font-size: 19px;
+            line-height: 22px;
+            margin-top: 26px;
+        }
+
+        &__content-text {
+            font-size: 19px;
+            line-height: 23px;
+        }
+
+        &__wrap {
+            margin: 18px auto 40px auto;
+        }
+
+        &__content {
+            margin-bottom: 47px;
+        }
+
+        &__line {
+            margin: 50px 0 40px 0;
+        }
+    }
+}
+
+@media (max-width:567px) {
+    .offers {
+
+        &__price {
+            padding: 0 24px;
+        }
+
+        &__btn {
+            width: calc(100% + 50px);
+            margin-inline: -25px;
+        }
+
+        &__content-wrap {
+            width: calc(100% + 50px);
+            margin-inline: -25px;
+        }
+
+        &__content-text {
+            max-width: 333px;
+            padding-block: 31px;
+        }
     }
 }

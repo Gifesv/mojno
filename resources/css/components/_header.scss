@@ -127,12 +127,6 @@
     }
 }
 
-@media (max-width: 1600px) {
-    .header {
-        // margin-inline: 40px;
-    }
-}
-
 @media (max-width: 1440px) {
     .header {
         padding-inline: clamp(25px, 3vw, 45px);
@@ -195,9 +189,8 @@
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
     .header {
-        // margin-inline: 0;
         position: relative;
         border-bottom: 2px solid #D7D7D7;
 

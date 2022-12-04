@@ -70,3 +70,48 @@
         line-height: 32px;
     }
 }
+
+@media (max-width:1200px) {
+    .accordion {
+
+        &__title {
+            font-size: 24px;
+        }
+
+        &__content-title {
+            font-size: 19px;
+        }
+
+        &__list-item {
+            font-size: 19px;
+        }
+    }
+}
+
+@media (max-width:1200px) {
+    .accordion {
+
+        &__title {
+            font-size: 19px;
+            line-height: 25px;
+            padding-block: 20px;
+            max-width: 270px;
+        }
+    }
+}
+
+@media (max-width:567px) {
+    .accordion {
+
+        &__header {
+            border-inline: none;
+            width: 100%;
+            margin-inline: -28px
+        }
+
+        &__content {
+            width: 100%;
+            margin-inline: -43px;
+        }
+    }
+}
