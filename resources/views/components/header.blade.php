@@ -9,7 +9,7 @@
         </div>
         <nav class="header__nav">
             <ul class="header__nav-list">
-                <li class="header__nav-item header__nav-item_main">
+                <li class="header__nav-item header__nav-item_sm">
                     <a class="header__nav-link" href="/">главная</a>
                 </li>
                 <li class="header__nav-item">
