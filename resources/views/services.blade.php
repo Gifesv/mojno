@@ -152,101 +152,9 @@
             <div class="offers__content-wrap">
                 <p class="offers__content-text">*до конца сентября действует скидка 20%</p>
             </div>
-            
+
         </div>
     </div>
-    <!-- <div class="offers__content">
-        <div class="offers__wrap">
-            <h2 class="offers__title">БАЗОВЫЙ ПАКЕТ УСЛУГ</h2>
-            <h2 class="offers__price">89 000 ₽</h2>
-            <div class="offers__line"></div>
-            <h2 class="offers__title">ЧТО ВХОДИТ В ПАКЕТ</h2>
-            <div class="accordion offers__accordion">
-                <div class="accordion__item">
-                    <div class="accordion__header">
-                        <h2 class="accordion__title">АУДИТ</h2>
-                        <svg class="accordion__symbol">
-                            <line class="accordion__symbol-line" x1="50%" x2="50%" y1="0" y2="100%" />
-                            <line class="accordion__symbol-line" x1="0" x2="100%" y1="50%" y2="50%" />
-                        </svg>
-                    </div>
-                    <div class="accordion__content">
-                        <h3 class="accordion__content-title">Что входит в позиционирование:</h3>
-                        <ul class="accordion__list">
-                            <li class="accordion__list-item">исследование и анализ</li>
-                            <li class="accordion__list-item">креативная стратегия</li>
-                            <li class="accordion__list-item">сущность бренда</li>
-                            <li class="accordion__list-item">рациональные преимущества</li>
-                            <li class="accordion__list-item">эмоциональные преимущества</li>
-                            <li class="accordion__list-item">идея позиционирования</li>
-                            <li class="accordion__list-item">ценности</li>
-                            <li class="accordion__list-item">характер</li>
-                            <li class="accordion__list-item">видение</li>
-                            <li class="accordion__list-item">миссия</li>
-                            <li class="accordion__list-item">визуальные поиски</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="accordion__item">
-                    <div class="accordion__header">
-                        <h2 class="accordion__title">ПОЗИЦИОНИРОВАНИЕ + КРЕАТИВНАЯ СТРАТЕГИЯ</h2>
-                        <svg class="accordion__symbol">
-                            <line class="accordion__symbol-line" x1="50%" x2="50%" y1="0" y2="100%" />
-                            <line class="accordion__symbol-line" x1="0" x2="100%" y1="50%" y2="50%" />
-                        </svg>
-                    </div>
-                    <div class="accordion__content">
-                        <h3 class="accordion__content-title">Что входит в позиционирование:</h3>
-                        <ul class="accordion__list">
-                            <li class="accordion__list-item">исследование и анализ</li>
-                            <li class="accordion__list-item">креативная стратегия</li>
-                            <li class="accordion__list-item">сущность бренда</li>
-                            <li class="accordion__list-item">рациональные преимущества</li>
-                            <li class="accordion__list-item">эмоциональные преимущества</li>
-                            <li class="accordion__list-item">идея позиционирования</li>
-                            <li class="accordion__list-item">ценности</li>
-                            <li class="accordion__list-item">характер</li>
-                            <li class="accordion__list-item">видение</li>
-                            <li class="accordion__list-item">миссия</li>
-                            <li class="accordion__list-item">визуальные поиски</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="accordion__item">
-                    <div class="accordion__header">
-                        <h2 class="accordion__title">ФИРМЕННЫЙ СТИЛЬ</h2>
-                        <svg class="accordion__symbol">
-                            <line class="accordion__symbol-line" x1="50%" x2="50%" y1="0" y2="100%" />
-                            <line class="accordion__symbol-line" x1="0" x2="100%" y1="50%" y2="50%" />
-                        </svg>
-                    </div>
-                    <div class="accordion__content">
-                        <h3 class="accordion__content-title">Что входит в позиционирование:</h3>
-                        <ul class="accordion__list">
-                            <li class="accordion__list-item">исследование и анализ</li>
-                            <li class="accordion__list-item">креативная стратегия</li>
-                            <li class="accordion__list-item">сущность бренда</li>
-                            <li class="accordion__list-item">рациональные преимущества</li>
-                            <li class="accordion__list-item">эмоциональные преимущества</li>
-                            <li class="accordion__list-item">идея позиционирования</li>
-                            <li class="accordion__list-item">ценности</li>
-                            <li class="accordion__list-item">характер</li>
-                            <li class="accordion__list-item">видение</li>
-                            <li class="accordion__list-item">миссия</li>
-                            <li class="accordion__list-item">визуальные поиски</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="offers__line"></div>
-            <h2 class="offers__subtitle">Все вышеперечисленное мы собираем в <span>брендбук*</span></h2>
-            <p class="offers__text"><span>*брендбук</span> – детальное руководство по использованию фирменного стиля
-                <br> и маркетинговой платформы в виде презентации
-            </p>
-            <button class="offers__btn">Связаться с нами</button>
-        </div>
-        <p class="offers__content-text">*до конца сентября действует скидка 20%</p>
-    </div> -->
 </div>
 
 <div class="products">
@@ -298,7 +206,7 @@
             </div>
             <div class="offers__line"></div>
             <h2 class="products__title">КАК ПРОХОДИТ РАБОТА НАД ПРОЕКТОМ</h2>
-            <div class="products__list">
+            <div class="products__list products__list_how">
                 <div class="products__item">
                     <div class="products__item-img">
                         <img class="products__img" src="public/img/services/logo1.png" alt="logo1">
@@ -308,7 +216,7 @@
                             <span>(можно через бота в телеграмме или на сайте)</span>
                         </p>
                     </div>
-                    
+
                 </div>
                 <div class="products__item">
                     <div class="products__item-img">
@@ -340,7 +248,7 @@
             </div>
             <div class="offers__line"></div>
             <h2 class="products__title">ЭТАПЫ РАБОТЫ НАД БРЕНДОМ</h2>
-            <div class="products__list">
+            <div class="products__list products__list_stages">
                 <div class="products__item">
                     <div class="products__item-img">
                         <img class="products__img" src="public/img/services/logo5.png" alt="logo5">
@@ -349,7 +257,7 @@
                         <p class="products__item-text">Аудит с дизайнером, маркетологом и СММ-специалистом
                             <span>(2-3 часа)</span>
                         </p>
-                    </div>                  
+                    </div>
                 </div>
                 <div class="products__item">
                     <div class="products__item-img">
@@ -358,7 +266,7 @@
                     <div class="products__item-wrap">
                         <p class="products__item-text">1-2 недели готовим исследование <span>(концепция позиционирования и
                             креативная стратегия, визуальные поиски)</span></p>
-                    </div>    
+                    </div>
                 </div>
                 <div class="products__item">
                     <div class="products__item-img">
@@ -367,7 +275,7 @@
                     <div class="products__item-wrap">
                         <p class="products__item-text">Презентуем 2-3 варианта лого с визуализацией, после чего вы выбираете  один из представленных вариантов
                         </p>
-                    </div>    
+                    </div>
                 </div>
                 <div class="products__item">
                     <div class="products__item-img">
@@ -376,7 +284,7 @@
                     <div class="products__item-wrap">
                         <p class="products__item-text">Разрабатываем дизайн носителей
                         </p>
-                    </div> 
+                    </div>
                 </div>
                 <div class="products__item">
                     <div class="products__item-img">
@@ -385,7 +293,7 @@
                     <div class="products__item-wrap">
                         <p class="products__item-text">Дополнительные услуги <span>(если вы что-то добавляли в пакет)</span>
                         </p>
-                    </div>  
+                    </div>
                 </div>
                 <div class="products__item">
                     <div class="products__item-img">

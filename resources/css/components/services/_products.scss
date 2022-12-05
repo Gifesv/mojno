@@ -23,7 +23,7 @@
     }
 
     &__wrapper {
-        
+
     }
 
     &__wrap {
@@ -188,20 +188,36 @@
 
         //_________________________________КАРТИНКИ МОБИЛКА_______________________________________
 
+        &__list_how {
+            .products__item {
+                $bg-colors: #DBFF00, #FFA2B8, #BEADFF, #0066FF;
+                @each $color in $bg-colors {
+                    $i: index($bg-colors, $color);
+                    &:nth-child(#{$i}) .products__item-img {
+                        background-color: $color;
+                    }
+                }
+            }
+        }
+
+        &__list_stages {
+            .products__item {
+                $bg-colors: #FF5C00, #90FFDE, #FF61E6, #8FFF00, #9F53FF, #FF4163;
+                @each $color in $bg-colors {
+                    $i: index($bg-colors, $color);
+                    &:nth-child(#{$i}) .products__item-img {
+                        background-color: $color;
+                    }
+                }
+            }
+        }
+
         &__item {
             flex-direction: column;
             align-items: center;
             border-inline: none;
             width: 100vw;
             margin-left: calc(50% - 50vw);
-            
-            $bg-colors: #DBFF00, #FFA2B8, #BEADFF, #0066FF, #FF5C00, #90FFDE, #FF61E6, #8FFF00, #9F53FF, #FF4163;
-            @each $color in $bg-colors {
-                $i: index($bg-colors, $color);
-                &:nth-child(#{$i}) .products__item-img {
-                    background-color: $color;
-                }
-            }
         }
 
         &__item-img {
