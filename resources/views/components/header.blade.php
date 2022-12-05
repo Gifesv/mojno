@@ -9,6 +9,9 @@
         </div>
         <nav class="header__nav">
             <ul class="header__nav-list">
+                <li class="header__nav-item header__nav-item_main">
+                    <a class="header__nav-link" href="/">главная</a>
+                </li>
                 <li class="header__nav-item">
                     <a class="header__nav-link {{ Request::is('about') ? 'header__nav-link_underline' : '' }}" href="/about">о нас</a>
                 </li>

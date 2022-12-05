@@ -1,6 +1,8 @@
-.projects {
+.main__projects {
     margin-top: 86px;
+}
 
+.projects {
     &-list {
         max-width: 1819px;
         margin: -1px auto 0 auto;
@@ -67,16 +69,24 @@
 @media (max-width:768px) {
     .projects {
         &-list {
-            grid-template-columns: repeat(2, 1fr)
+            grid-template-columns: repeat(2, 1fr);
+
+            &_col3 {
+                margin-bottom: 42px;
+            }
         }
     }
 }
 
-@media (max-width:450px) {
+@media (max-width:576px) {
     .projects {
         .projects-list__item-text {
             font-size: 17px;
             line-height: 27px;
         }
+    }
+
+    .main__projects {
+        margin-top: 43px;
     }
 }

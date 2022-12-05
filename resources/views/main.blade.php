@@ -24,7 +24,7 @@
         </div>
     </div>
 
-    <div class="projects">
+    <div class="projects main__projects">
         <div class="section-title">
             <div class="section-title__line">
                 <p class="section-title__line-text">ПРОЕКТЫ АГЕНСТВА</p>

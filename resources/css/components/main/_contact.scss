@@ -57,9 +57,14 @@
     }
 }
 
-@media (max-width: 658px) {
+@media (max-width: 768px) {
     .contact__text {
         font-size: 32px;
+        margin-block: 38px;
+    }
+
+    .form__btn {
+        margin-bottom: 40px;
     }
 }
 

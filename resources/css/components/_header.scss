@@ -13,6 +13,10 @@
         margin-top: 5px;
     }
 
+    &__nav-item_main {
+        display: none;
+    }
+
     &__inner {
         display: flex;
         justify-content: space-between;
@@ -197,6 +201,10 @@
 
         &__nav-link_underline::after {
             display: none;
+        }
+
+        &__nav-item_main {
+            display: block;
         }
 
         &__inner {
